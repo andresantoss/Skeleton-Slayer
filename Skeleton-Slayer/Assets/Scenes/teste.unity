@@ -1141,8 +1141,11 @@ MonoBehaviour:
   moveSpeed: 10
   jumpForce: 20
   controller: {fileID: 1501879402}
-  anim: {fileID: 644863932}
   gravityScale: 5
+  anim: {fileID: 644863932}
+  pivot: {fileID: 753903543}
+  rotateSpeeed: 10
+  playerModel: {fileID: 644863930}
 --- !u!143 &1501879402
 CharacterController:
   m_ObjectHideFlags: 0
