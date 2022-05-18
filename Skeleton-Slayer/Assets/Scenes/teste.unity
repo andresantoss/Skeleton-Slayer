@@ -725,12 +725,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1501879400}
-  offset: {x: 0, y: -5, z: 5}
+  offset: {x: 0, y: -3, z: 6}
   useOffsetvalues: 1
-  rotateSpeed: 5
+  rotateSpeed: 2
   pivot: {fileID: 753903543}
   maxViewAngle: 65
-  minViewAngle: -60
+  minViewAngle: -10
   invertY: 0
 --- !u!1 &1108569549
 GameObject:
