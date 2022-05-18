@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
    }
   }
 
+  //eu
   moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime); //gravidade
   controller.Move(moveDirection * Time.deltaTime);
 
