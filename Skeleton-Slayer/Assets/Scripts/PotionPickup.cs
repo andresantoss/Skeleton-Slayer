@@ -5,7 +5,7 @@ using UnityEngine;
 public class PotionPickup : MonoBehaviour
 {
     public int value;
-    public GameObject pickupEffect;
+    public ParticleSystem pickupEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class PotionPickup : MonoBehaviour
         if(other.tag == "Player")
         {
             FindObjectOfType<GameManager>().AddPotion(value);
-            Instantiate(pickupEffect, transform.position, transform.rotation);
+            Instantiate(pickupEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

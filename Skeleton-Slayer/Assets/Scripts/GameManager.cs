@@ -25,6 +25,6 @@ public class GameManager : MonoBehaviour
     public void AddPotion(int potionToAdd)
     {
         currentPotion += potionToAdd;
-        potionText.text = "POTIONS OF HEALINGS: " + currentPotion + "!";
+        potionText.text = "" + currentPotion;
     }
 }
