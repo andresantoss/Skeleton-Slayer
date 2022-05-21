@@ -56496,6 +56496,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 5
+  anim: {fileID: 644863932}
+  CooldownDuration: 0.7
+  IsAvailable: 1
 --- !u!1 &1504983896
 GameObject:
   m_ObjectHideFlags: 0
