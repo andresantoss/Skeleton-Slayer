@@ -29,7 +29,9 @@ public class HurtPlayer : MonoBehaviour
         }
         else if(other.gameObject.tag == "Player")
         {
-            FindObjectOfType<HealthManager>().HurtPlayer(damageToGive);
+            Vector3 hitDirection = other.transform.position - transform.position;
+            hitDirection = hitDirection.normalized;
+            FindObjectOfType<HealthManager>().HurtPlayer(damageToGive, hitDirection);
             anim.SetInteger("hurt", 1);
             StartCoroutine(StartCooldown());
         }
