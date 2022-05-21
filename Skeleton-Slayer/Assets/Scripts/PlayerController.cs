@@ -61,8 +61,9 @@ public class PlayerController : MonoBehaviour
    Quaternion newRotation = Quaternion.LookRotation(new Vector3(moveDirection.x, 0f, moveDirection.z));
    playerModel.transform.rotation = Quaternion.Slerp(playerModel.transform.rotation, newRotation, rotateSpeeed * Time.deltaTime);
   }
-
+  anim.SetFloat ("speed", Mathf.Abs (Input.GetAxis ("Horizontal")));
+  anim.SetFloat ("speed", Mathf.Abs (Input.GetAxis ("Vertical")));
   anim.SetBool("isGrounded", controller.isGrounded);
-  anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
+  
  }
 }
