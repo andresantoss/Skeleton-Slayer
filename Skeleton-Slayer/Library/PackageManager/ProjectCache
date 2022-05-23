@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637886669681820177
-    m_Hash: 305254329
+      ticks: 637889122278182745
+    m_Hash: 2336923425
   m_LockFileStatus:
     m_FilePath: C:/projetos/jogo_facu/Skeleton-Slayer/Skeleton-Slayer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637886669682009672
-    m_Hash: 3723274175
+      ticks: 637889122278192723
+    m_Hash: 349872087
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
