@@ -2194,7 +2194,6 @@ MonoBehaviour:
   gravityScale: 5
   anim: {fileID: 7792613931887534186}
   pivot: {fileID: 0}
-  playerModel: {fileID: 6982132776263091092}
   rotateSpeeed: 10
   knockBackForce: 3
   knockBackTime: 0.5
