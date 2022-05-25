@@ -24,7 +24,7 @@ public class HealthManager : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        //thePlayer = FindObjectOfType<PlayerController>();
+        thePlayer = FindObjectOfType<PlayerController>();
 
     }
     // Update is called once per frame
@@ -38,22 +38,20 @@ public class HealthManager : MonoBehaviour
         {
             bubble.SetActive(false);
         }
-        if (currentHealth <= 0)
-        {
-            StartCoroutine(respawn());
-        }
     }
     public void HurtPlayer(int damage, Vector3 direction)
     {
         if (invicibilityCounter <= 0)
         {
             currentHealth -= damage;
+            StartCoroutine(anim_hurt());
             if (currentHealth <= 0)
             {
+                StartCoroutine(anim_death());
+                StartCoroutine(respawn());
             }
             else
             {
-                StartCoroutine(anim_hurt());
                 thePlayer.Knockback(direction);
                 invicibilityCounter = invicibilityLength;
                 bubble.SetActive(true);
@@ -64,15 +62,23 @@ public class HealthManager : MonoBehaviour
     public IEnumerator anim_hurt()
     {
 
-        anim.SetInteger("hurt", 1);
+        anim.SetInteger("transition", 3);
         yield return new WaitForSeconds(0.7f);
-        anim.SetInteger("hurt", 0);
+        anim.SetInteger("transition", 0);
     }
+
+    public IEnumerator anim_death()
+    {
+        anim.SetInteger("transition", 4);
+        yield return new WaitForSeconds(3.9f);
+        anim.SetInteger("transition", 0);
+    }
+
     public IEnumerator respawn()
     {
         Debug.Log("respawn");
         Player.transform.position = respawnPoint.transform.position;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(10f);
         currentHealth = maxHealth;
     }
 

@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public int currentPotion;
     public TMP_Text potionText;
 
+    public void Enable()
+    {
+        gameObject.SetActive(true);
+    }
 
     // Start is called before the first frame update
     void Start()
