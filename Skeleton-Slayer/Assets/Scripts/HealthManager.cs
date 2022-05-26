@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 public class HealthManager : MonoBehaviour
 {
@@ -17,15 +16,14 @@ public class HealthManager : MonoBehaviour
     // invicibility effect
     public GameObject bubble;
     // respawn
-    [SerializeField] private Transform Player;
-    [SerializeField] private Transform respawnPoint;
+    public bool isRespawning;
+    //public Transform respawnPoint;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         thePlayer = FindObjectOfType<PlayerController>();
-
     }
     // Update is called once per frame
     void Update()
@@ -38,48 +36,28 @@ public class HealthManager : MonoBehaviour
         {
             bubble.SetActive(false);
         }
+
     }
     public void HurtPlayer(int damage, Vector3 direction)
     {
         if (invicibilityCounter <= 0)
         {
             currentHealth -= damage;
-            StartCoroutine(anim_hurt());
             if (currentHealth <= 0)
             {
-                StartCoroutine(anim_death());
-                StartCoroutine(respawn());
+                Debug.Log("morto");
+                anim.SetInteger("transition", 4);
+                currentHealth = maxHealth;
             }
-            else
+
+            else if (currentHealth > 0)
             {
                 thePlayer.Knockback(direction);
                 invicibilityCounter = invicibilityLength;
                 bubble.SetActive(true);
             }
+
         }
-    }
-
-    public IEnumerator anim_hurt()
-    {
-
-        anim.SetInteger("transition", 3);
-        yield return new WaitForSeconds(0.7f);
-        anim.SetInteger("transition", 0);
-    }
-
-    public IEnumerator anim_death()
-    {
-        anim.SetInteger("transition", 4);
-        yield return new WaitForSeconds(3.9f);
-        anim.SetInteger("transition", 0);
-    }
-
-    public IEnumerator respawn()
-    {
-        Debug.Log("respawn");
-        Player.transform.position = respawnPoint.transform.position;
-        yield return new WaitForSeconds(10f);
-        currentHealth = maxHealth;
     }
 
     public void HealPlayer(int healAmount)
@@ -91,6 +69,18 @@ public class HealthManager : MonoBehaviour
         }
     }
 
+    /*     private void OnTriggerEnter(Collider other)
+        {
+            if (currentHealth <= 0)
+            {
+                if (other.gameObject.tag == "Player")
+                {
+                    Debug.Log("Recuperando Vida");
+                    anim.SetInteger("transition", 0);
+                    currentHealth = maxHealth;
 
+                }
+            }
 
+        } */
 }
