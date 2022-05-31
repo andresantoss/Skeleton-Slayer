@@ -76,10 +76,10 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator resetRespawn()
     {
-        Debug.Log("Respawn");
         yield return new WaitForSeconds(4f);
         controller.transform.position = respawnPoint.transform.position;
         anim.SetInteger("transition", 0);
+        FindObjectOfType<HealthManager>().HealPlayer(9999);
     }
 
     public void Knockback(Vector3 direction)

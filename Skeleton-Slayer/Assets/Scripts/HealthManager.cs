@@ -24,6 +24,7 @@ public class HealthManager : MonoBehaviour
     {
         currentHealth = maxHealth;
         thePlayer = FindObjectOfType<PlayerController>();
+        FindObjectOfType<GameManager>().AddHealth(currentHealth, maxHealth);
     }
     // Update is called once per frame
     void Update()
@@ -36,18 +37,29 @@ public class HealthManager : MonoBehaviour
         {
             bubble.SetActive(false);
         }
+        if (currentHealth > 0)
+        {
+            FindObjectOfType<GameManager>().AddHealth(currentHealth, maxHealth);
+        }
+        else
+        {
+            FindObjectOfType<GameManager>().AddHealth(0, maxHealth);
+        }
+
 
     }
     public void HurtPlayer(int damage, Vector3 direction)
     {
         if (invicibilityCounter <= 0)
         {
+
+
             currentHealth -= damage;
+
             if (currentHealth <= 0)
             {
-                Debug.Log("morto");
+                FindObjectOfType<GameManager>().AddHealth(0, maxHealth);
                 anim.SetInteger("transition", 4);
-                currentHealth = maxHealth;
             }
 
             else if (currentHealth > 0)
@@ -59,7 +71,6 @@ public class HealthManager : MonoBehaviour
 
         }
     }
-
     public void HealPlayer(int healAmount)
     {
         currentHealth += healAmount;
@@ -69,18 +80,4 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    /*     private void OnTriggerEnter(Collider other)
-        {
-            if (currentHealth <= 0)
-            {
-                if (other.gameObject.tag == "Player")
-                {
-                    Debug.Log("Recuperando Vida");
-                    anim.SetInteger("transition", 0);
-                    currentHealth = maxHealth;
-
-                }
-            }
-
-        } */
 }
