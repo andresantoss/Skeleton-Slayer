@@ -457,7 +457,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311957640}
-  m_LocalRotation: {x: -0.01898291, y: 0.84547067, z: -0.53283376, w: -0.030121017}
+  m_LocalRotation: {x: -0.018982984, y: 0.84547055, z: -0.5328338, w: -0.030121129}
   m_LocalPosition: {x: -0.92883754, y: 1.5, z: -13.002535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -586,7 +586,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357041629}
-  m_LocalRotation: {x: -0.018982911, y: 0.8454706, z: -0.53283376, w: -0.03012102}
+  m_LocalRotation: {x: -0.018982982, y: 0.8454706, z: -0.53283376, w: -0.030121127}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2034,13 +2034,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca6774f681cbee549a243dbf1b7331c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 6
   jumpForce: 15
   controller: {fileID: 1643879723}
   gravityScale: 5
   anim: {fileID: 1229924894}
   pivot: {fileID: 1862621215}
-  rotateSpeeed: 150
+  rotateSpeeed: 170
   knockBackForce: 3
   knockBackTime: 0.5
   respawnPoint: {fileID: 2087394524}
@@ -2102,7 +2102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765263127}
-  m_LocalRotation: {x: -0.02081792, y: 0.8107279, z: -0.5843395, w: -0.028883325}
+  m_LocalRotation: {x: -0.020817881, y: 0.8107279, z: -0.5843395, w: -0.028883275}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2949,6 +2949,10 @@ PrefabInstance:
       propertyPath: thePlayer
       value: 
       objectReference: {fileID: 1643879722}
+    - target: {fileID: 5069277888118379086, guid: 7558077548dc44942b1aec15181a70c4, type: 3}
+      propertyPath: hurtEffect
+      value: 
+      objectReference: {fileID: 2298358232581336643, guid: 58eb69168d5a2ec4db307fb1b8447d99, type: 3}
     - target: {fileID: 5069277888118379086, guid: 7558077548dc44942b1aec15181a70c4, type: 3}
       propertyPath: isRespawning
       value: 0

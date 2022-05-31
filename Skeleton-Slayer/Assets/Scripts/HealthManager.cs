@@ -15,9 +15,7 @@ public class HealthManager : MonoBehaviour
     private float invicibilityCounter;
     // invicibility effect
     public GameObject bubble;
-    // respawn
-    public bool isRespawning;
-    //public Transform respawnPoint;
+    public ParticleSystem hurtEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +51,7 @@ public class HealthManager : MonoBehaviour
         if (invicibilityCounter <= 0)
         {
 
-
+            Instantiate(hurtEffect, thePlayer.transform.position, Quaternion.identity);
             currentHealth -= damage;
 
             if (currentHealth <= 0)
