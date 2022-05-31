@@ -9,11 +9,6 @@ public class GameManager : MonoBehaviour
     public TMP_Text HealthText;
     public TMP_Text maxHealthText;
 
-    public void Enable()
-    {
-        gameObject.SetActive(true);
-    }
-
     // Start is called before the first frame update
     void Start()
     {
