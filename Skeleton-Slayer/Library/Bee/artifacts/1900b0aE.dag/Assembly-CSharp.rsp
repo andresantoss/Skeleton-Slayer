@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AutoDestroyer.cs"
 "Assets/Scripts/buttonActions.cs"
+"Assets/Scripts/Checkpoint.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealthManager.cs"
 "Assets/Scripts/HurtPlayer.cs"

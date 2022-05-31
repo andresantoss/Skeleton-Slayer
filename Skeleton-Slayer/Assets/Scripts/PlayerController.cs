@@ -17,9 +17,11 @@ public class PlayerController : MonoBehaviour
 
     // respawn
     public Transform respawnPoint;
+
     public GameObject mainMenu;
     public GameObject youDie;
     public GameObject hud;
+    public GameObject cpWarning;
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +85,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void SetSpawnPoint(Transform newPosition)
+    {
+        if (newPosition != respawnPoint)
+        {
+            StartCoroutine(checkpointWarning());
+            respawnPoint = newPosition;
+        }
+    }
+
     public IEnumerator resetRespawn()
     {
         youDie.SetActive(true);
@@ -94,6 +105,13 @@ public class PlayerController : MonoBehaviour
         controller.transform.position = respawnPoint.transform.position;
         anim.SetInteger("transition", 0);
         FindObjectOfType<HealthManager>().HealPlayer(9999);
+    }
+
+    public IEnumerator checkpointWarning()
+    {
+        cpWarning.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        cpWarning.SetActive(false);
     }
 
     public void Knockback(Vector3 direction)
