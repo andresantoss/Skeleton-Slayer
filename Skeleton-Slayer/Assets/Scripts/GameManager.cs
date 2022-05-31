@@ -29,9 +29,8 @@ public class GameManager : MonoBehaviour
 
     public void AddHealth(int Health, int maxHealth)
     {
-
         currentHealth = Health;
         HealthText.text = "" + currentHealth;
-        maxHealthText.text = " / " + maxHealth;
+        maxHealthText.text = "  / " + maxHealth;
     }
 }
