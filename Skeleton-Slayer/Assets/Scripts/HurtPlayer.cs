@@ -27,7 +27,6 @@ public class HurtPlayer : MonoBehaviour
     }
     public IEnumerator anim_hurt()
     {
-        Debug.Log("dano");
         anim.SetInteger("hurt", 1); // muda pra animação do dano
         yield return new WaitForSeconds(0.7f); // espera a animação do dano acabar
         anim.SetInteger("hurt", 0); // tira da animação do dano
