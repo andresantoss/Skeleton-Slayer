@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         {
             if (anim.GetInteger("transition") != 4)
             {
-                Debug.Log(knockBackCounter);
+                //Debug.Log(knockBackCounter);
                 if (knockBackCounter <= 0)
                 {
 
@@ -65,7 +65,6 @@ public class PlayerController : MonoBehaviour
                         anim.SetInteger("transition", 0);
                     }
                     anim.SetBool("isGrounded", controller.isGrounded);
-
                 }
                 else
                 {

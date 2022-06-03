@@ -3,7 +3,7 @@ using UnityEngine;
 public class Combo : MonoBehaviour
 {
     Animator playerAnim;
-    bool comboPossible;
+    public bool comboPossible;
     public int comboStep;
     bool inputSmash;
 
@@ -28,11 +28,11 @@ public class Combo : MonoBehaviour
         if (inputSmash)
         {
             if (comboStep == 1)
-            { playerAnim.Play("SmashAtkA"); }
+            { playerAnim.Play("SmashAtkC"); }
             if (comboStep == 2)
             { playerAnim.Play("SmashAtkB"); }
             if (comboStep == 3)
-            { playerAnim.Play("SmashAtkC"); }
+            { playerAnim.Play("SmashAtkA"); }
         }
     }
     public void ResetCombo()
@@ -49,7 +49,7 @@ public class Combo : MonoBehaviour
             comboStep = 1;
             return;
         }
-        if (comboStep != 0)
+        else if (comboStep != 0)
         {
             if (comboPossible)
             {
@@ -68,32 +68,9 @@ public class Combo : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetAxisRaw("Fire1") != 0)
-        {
-            if (m_isAxisInUse == false)
-            {
-                NormalAttack();
-                m_isAxisInUse = true;
-            }
-        }
-        if (Input.GetAxisRaw("Fire1") == 0)
-        {
-            m_isAxisInUse = false;
-        }
-
-        if (Input.GetAxisRaw("Fire2") != 0)
-        {
-
-            if (m_isAxisInUse == false)
-            {
-                SmashAttack();
-                m_isAxisInUse = true;
-            }
-        }
-        if (Input.GetAxisRaw("Fire2") == 0)
-        {
-            m_isAxisInUse = false;
-        }
-
+        if (Input.GetMouseButtonDown(0))
+        { NormalAttack(); }
+        if (Input.GetMouseButtonDown(1))
+        { SmashAttack(); }
     }
 }

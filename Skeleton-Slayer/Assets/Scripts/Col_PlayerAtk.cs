@@ -16,10 +16,12 @@ public class Col_PlayerAtk : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "HitBox_Enemy")
+
+        if (other.gameObject.tag == "HitBox_Enemy")
         {
-            dmg = string.Format("{O} + {1}", type_Atk, comboStep);
-            dmgText.text = dmg;
+            //dmg = string.Format("{O} + {1}", type_Atk, comboStep);
+            dmgText.text = type_Atk + " + " + comboStep;
+            //dmgText.text = dmg;
             dmgText.gameObject.SetActive(true);
         }
     }
