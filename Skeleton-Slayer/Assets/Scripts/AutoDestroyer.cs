@@ -12,3 +12,4 @@ public class AutoDestroyer : MonoBehaviour
     }
 
 }
+
