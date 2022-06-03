@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class HealthManager : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class HealthManager : MonoBehaviour
     // invicibility effect
     public GameObject bubble;
     public ParticleSystem hurtEffect;
+
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +52,7 @@ public class HealthManager : MonoBehaviour
     {
         if (invicibilityCounter <= 0)
         {
-
+            StartCoroutine(anim_hurt());
             Instantiate(hurtEffect, thePlayer.transform.position, Quaternion.identity);
             currentHealth -= damage;
 
@@ -76,6 +78,13 @@ public class HealthManager : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+    }
+
+    public IEnumerator anim_hurt()
+    {
+        anim.SetInteger("hurt", 1); // muda pra animação do dano
+        yield return new WaitForSeconds(0.7f); // espera a animação do dano acabar
+        anim.SetInteger("hurt", 0); // tira da animação do dano
     }
 
 }

@@ -348,6 +348,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Prefabs/SimpleSkeletonFree/Script/Character/PlayerController.cs"
 "Assets/Scripts/AutoDestroyer.cs"
 "Assets/Scripts/buttonActions.cs"
 "Assets/Scripts/Checkpoint.cs"
