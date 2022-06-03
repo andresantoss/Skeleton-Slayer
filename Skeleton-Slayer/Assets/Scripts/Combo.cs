@@ -7,7 +7,7 @@ public class Combo : MonoBehaviour
     public int comboStep;
     bool inputSmash;
 
-    private bool m_isAxisInUse = false;
+    public bool m_isAxisInUse = false;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
