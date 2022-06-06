@@ -14,33 +14,28 @@ public class PlayerController : MonoBehaviour
     public float knockBackForce;
     public float knockBackTime;
     private float knockBackCounter;
-
     // respawn
     public Transform respawnPoint;
-
     public GameObject mainMenu;
     public GameObject youDie;
     public GameObject hud;
     public GameObject cpWarning;
-
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
-
-    // Update is called once per frame
     [System.Obsolete]
     void Update()
     {
         if (mainMenu.active == false)
         {
-
-
             if (anim.GetInteger("transition") != 4)
             {
+                //Debug.Log(knockBackCounter);
                 if (knockBackCounter <= 0)
                 {
+
                     float yStore = moveDirection.y;
                     float zDirection = Input.GetAxis("Vertical");
                     moveDirection = new Vector3(0.0f, 0.0f, zDirection);
@@ -58,24 +53,23 @@ public class PlayerController : MonoBehaviour
                             moveDirection.y = jumpForce;
                         }
                     }
+                    moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime); //gravidade
+                    controller.Move(moveDirection * Time.deltaTime);
+                    //animação
+                    if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+                    {
+                        anim.SetInteger("transition", 1);
+                    }
+                    else
+                    {
+                        anim.SetInteger("transition", 0);
+                    }
+                    anim.SetBool("isGrounded", controller.isGrounded);
                 }
                 else
                 {
                     knockBackCounter -= Time.deltaTime;
                 }
-                moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime); //gravidade
-                controller.Move(moveDirection * Time.deltaTime);
-
-                //animação
-                if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-                {
-                    anim.SetInteger("transition", 1);
-                }
-                else
-                {
-                    anim.SetInteger("transition", 0);
-                }
-                anim.SetBool("isGrounded", controller.isGrounded);
             }
             else
             {
@@ -84,7 +78,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
     public void SetSpawnPoint(Transform newPosition)
     {
         if (newPosition != respawnPoint)
@@ -93,7 +86,6 @@ public class PlayerController : MonoBehaviour
             respawnPoint = newPosition;
         }
     }
-
     public IEnumerator resetRespawn()
     {
         youDie.SetActive(true);
@@ -106,18 +98,15 @@ public class PlayerController : MonoBehaviour
         anim.SetInteger("transition", 0);
         FindObjectOfType<HealthManager>().HealPlayer(9999);
     }
-
     public IEnumerator checkpointWarning()
     {
         cpWarning.SetActive(true);
         yield return new WaitForSeconds(1f);
         cpWarning.SetActive(false);
     }
-
     public void Knockback(Vector3 direction)
     {
         knockBackCounter = knockBackTime;
-
         moveDirection = direction * knockBackForce;
         moveDirection.y = knockBackForce;
     }
