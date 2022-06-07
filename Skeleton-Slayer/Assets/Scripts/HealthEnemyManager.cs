@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class HealthEnemyManager : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class HealthEnemyManager : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        //FindObjectOfType<GameManager>().(, );
     }
     void Update()
     {
@@ -23,16 +23,22 @@ public class HealthEnemyManager : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+            //Debug.Log("Enemy Die");
             currentHealth = 0;
-            Debug.Log("Enemy Die");
-            //anim.SetInteger("transition", x);
+            anim.SetInteger("transition", 4);
         }
         else if (currentHealth > 0)
         {
+            //Debug.Log("Hit Enemy");
+            StartCoroutine(anim_hurt_enemy());
             DamageIndicator indicator = Instantiate(damageText, transform.position, Quaternion.identity).GetComponent<DamageIndicator>();
             indicator.SetDamageText(damage);
-            Debug.Log("Hit Enemy");
-            //anim.SetInteger("transition", x);
         }
+    }
+    public IEnumerator anim_hurt_enemy()
+    {
+        anim.SetInteger("hurt_enemy", 1); // muda pra animação do dano
+        yield return new WaitForSeconds(1.033f); // espera a animação do dano acabar
+        anim.SetInteger("hurt_enemy", 0); // tira da animação do dano
     }
 }

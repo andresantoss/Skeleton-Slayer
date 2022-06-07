@@ -68,9 +68,9 @@ public class Combo : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         { NormalAttack(); }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButton(1))
         { SmashAttack(); }
     }
 }

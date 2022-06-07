@@ -24,6 +24,6 @@ public class Col_PlayerAtk : MonoBehaviour
             //Enemy.gameObject.SendMessage("OnHurtEnemy", damage);
             Enemy.gameObject.GetComponent<HealthEnemyManager>().HurtEnemy(damage);
         }
-
     }
+
 }
