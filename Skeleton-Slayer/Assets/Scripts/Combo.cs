@@ -43,7 +43,7 @@ public class Combo : MonoBehaviour
     }
     public void NormalAttack()
     {
-        if (comboStep <= 0)
+        if (comboStep == 0)
         {
             playerAnim.Play("NormalAtkA");
             comboStep = 1;

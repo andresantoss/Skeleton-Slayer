@@ -6,13 +6,13 @@ public class HealthEnemyManager : MonoBehaviour
     public int maxHealth;
     public int currentHealth;
     public Animator anim;
+    public GameObject damageText;
     //public ParticleSystem hurtEffect;
     void Start()
     {
         currentHealth = maxHealth;
         //FindObjectOfType<GameManager>().(, );
     }
-    // Update is called once per frame
     void Update()
     {
 
@@ -29,16 +29,10 @@ public class HealthEnemyManager : MonoBehaviour
         }
         else if (currentHealth > 0)
         {
+            DamageIndicator indicator = Instantiate(damageText, transform.position, Quaternion.identity).GetComponent<DamageIndicator>();
+            indicator.SetDamageText(damage);
             Debug.Log("Hit Enemy");
             //anim.SetInteger("transition", x);
-        }
-    }
-    public void HealPlayer(int healAmount)
-    {
-        currentHealth += healAmount;
-        if (currentHealth > maxHealth)
-        {
-            currentHealth = maxHealth;
         }
     }
 }

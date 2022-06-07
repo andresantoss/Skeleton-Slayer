@@ -6,7 +6,7 @@ public class Col_PlayerAtk : MonoBehaviour
     public Combo combo;
     public string type_Atk;
     int comboStep;
-    public int damage;
+    public int Maxdamage;
     public TextMeshProUGUI dmgText;
 
     private void OnEnable()
@@ -16,7 +16,7 @@ public class Col_PlayerAtk : MonoBehaviour
 
     private void OnTriggerEnter(Collider Enemy)
     {
-
+        int damage = Random.Range(1, Maxdamage);
         if (Enemy.gameObject.tag == "HitBox_Enemy")
         {
             dmgText.text = type_Atk + " + " + comboStep;
