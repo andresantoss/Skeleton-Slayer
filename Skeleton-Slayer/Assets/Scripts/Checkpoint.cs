@@ -12,12 +12,6 @@ public class Checkpoint : MonoBehaviour
         thePlayer = FindObjectOfType<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void CheckpointOn()
     {
         Checkpoint[] checkpoints = FindObjectsOfType<Checkpoint>();
