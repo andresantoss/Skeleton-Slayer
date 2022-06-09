@@ -23,6 +23,7 @@ public class HurtPlayer : MonoBehaviour
             hitDirection = other.transform.position - transform.position;
             hitDirection = hitDirection.normalized;
             FindObjectOfType<HealthManager>().HurtPlayer(damageToGive, hitDirection);
+            FindObjectOfType<Combo>().ResetCombo();
         }
     }
     public IEnumerator anim_hurt()

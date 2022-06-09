@@ -6,7 +6,7 @@ public class Col_PlayerAtk : MonoBehaviour
     public Combo combo;
     public string type_Atk;
     int comboStep;
-    public string dmg;
+    public int Maxdamage;
     public TextMeshProUGUI dmgText;
 
     private void OnEnable()
@@ -14,15 +14,16 @@ public class Col_PlayerAtk : MonoBehaviour
         comboStep = combo.comboStep;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider Enemy)
     {
-
-        if (other.gameObject.tag == "HitBox_Enemy")
+        int damage = Random.Range(1, Maxdamage);
+        if (Enemy.gameObject.tag == "HitBox_Enemy")
         {
-            //dmg = string.Format("{O} + {1}", type_Atk, comboStep);
             dmgText.text = type_Atk + " + " + comboStep;
-            //dmgText.text = dmg;
             dmgText.gameObject.SetActive(true);
+            //Enemy.gameObject.SendMessage("OnHurtEnemy", damage);
+            Enemy.gameObject.GetComponent<HealthEnemyManager>().HurtEnemy(damage);
         }
     }
+
 }

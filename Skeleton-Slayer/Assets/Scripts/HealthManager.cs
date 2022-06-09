@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour
 {
-
-    MeshRenderer meshRenderer;
-    Color origColor;
     // Health System
     public int maxHealth;
     public int currentHealth;
@@ -14,6 +11,8 @@ public class HealthManager : MonoBehaviour
     public float invicibilityLength;
     private float invicibilityCounter;
     // invicibility effect
+
+
     public GameObject bubble;
     public ParticleSystem hurtEffect;
 
