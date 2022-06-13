@@ -18,11 +18,14 @@ public class HurtPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            playerAnim.Play("Impact");
-            hitDirection = other.transform.position - transform.position;
-            hitDirection = hitDirection.normalized;
-            FindObjectOfType<HealthManager>().HurtPlayer(damageToGive, hitDirection);
-            FindObjectOfType<Combo>().ResetCombo();
+            if (playerAnim.GetInteger("transition") != 4)
+            {
+                playerAnim.Play("Impact");
+                hitDirection = other.transform.position - transform.position;
+                hitDirection = hitDirection.normalized;
+                FindObjectOfType<HealthManager>().HurtPlayer(damageToGive, hitDirection);
+                FindObjectOfType<Combo>().ResetCombo();
+            }
         }
     }
 }
