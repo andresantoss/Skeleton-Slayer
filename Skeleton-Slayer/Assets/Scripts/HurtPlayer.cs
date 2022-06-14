@@ -7,13 +7,6 @@ public class HurtPlayer : MonoBehaviour
     private Vector3 hitDirection;
     public Animator playerAnim;
 
-    void Start()
-    {
-    }
-    void Update()
-    {
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

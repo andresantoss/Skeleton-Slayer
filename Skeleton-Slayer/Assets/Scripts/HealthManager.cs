@@ -61,7 +61,7 @@ public class HealthManager : MonoBehaviour
 
             else if (currentHealth > 0)
             {
-                thePlayer.Knockback(direction);
+                thePlayer.Knockback(direction, 5f);
                 invicibilityCounter = invicibilityLength;
                 bubble.SetActive(true);
             }
