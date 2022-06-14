@@ -8,6 +8,7 @@ public class boss1 : MonoBehaviour
     bool enableAtc;
     int atkStep;
     public float lookRadius = 15f;
+    public ParticleSystem AtkCEffect;
 
     public void Start()
     {
@@ -74,6 +75,10 @@ public class boss1 : MonoBehaviour
                     break;
             }
         }
+    }
+    public void EffectAtkC()
+    {
+        Instantiate(AtkCEffect, transform.position, Quaternion.identity);
     }
     public void FreezeBoss1()
     {
