@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 1268819480}
   - component: {fileID: 1268819479}
   - component: {fileID: 1268819481}
+  - component: {fileID: 1268819482}
   m_Layer: 5
   m_Name: Prologo
   m_TagString: Untagged
@@ -346,9 +347,9 @@ MonoBehaviour:
   m_text: "<align=center><size=50>Pr\xF3logo</align></size>\n\nA Torre Amaldi\xE7oada,
     antes conhecida como Torre das Pedras Sibilantes, onde antes viveu o nobre mago
     Mal\u2019ganis e seus servos, um grande mago das artes obscuras Mal\u2019ganis
-    buscava um modo de conseguir mais tempo para dedicar ao seus estudos, presos
+    buscava um modo de conseguir mais tempo para dedicar \xE0 seus estudos, preso
     \xE0s limita\xE7\xF5es mortais come\xE7ou a estudar formas de se manter livre
-    da fome e cansa\xE7o atrav\xE9s da magia. Depois de anos de estudo e testes,
+    da fome e cansa\xE7o atrav\xE9s da magia. \n\nDepois de anos de estudo e testes,
     Mal\u2019ganis desenvolveu uma magia capaz de atender seu desejo, mas foi a\xED
     que deu tudo errado. O que era antes um nobre mago, transformou um monstro, Mal\u2019ganis
     foi corrompido pela magia obscura e se transformou em uma das mais terr\xEDveis
@@ -356,15 +357,14 @@ MonoBehaviour:
     perdeu sua humanidade e se transformou em um monstro capaz de controlar os mortos
     e al\xE7ar maldi\xE7\xF5es, dando fim assim a todos aqueles que viviam na torre
     e nos seus arredores, prendendo suas almas para sempre e criando um local permeado
-    pelas n\xE9voas da morte e monstros terr\xEDveis que o servem.\n\n\n\n\n<align=center><size=40>100
+    pelas n\xE9voas da morte e pelos monstros terr\xEDveis que o servem.\n\n\n\n\n<align=center><size=40>100
     Anos depois\r</align></size>\n\n\n\r\nAp\xF3s um conselho realizado pelas principais
     guildas e fam\xEDlias nobres na capital Belaronia, foi decidido o envio de aventureiros
     para combater o Lich Mal\u2019ganis, residente da Torre Amaldi\xE7oada, cujos
     servos causam problemas \xE0s vilas pr\xF3ximas e aos viajantes que por perto
     passam. Rafty Raftsson foi um dos escolhidos para serem enviados ao vilarejo
     de Millston, o vilarejo mais pr\xF3ximo \xE0 torre, e de l\xE1 partir para expedi\xE7\xF5es
-    de subjuga\xE7\xE3o de monstros e limpar a torre do controle do Lich. E do vilarejo
-    Rafty parte para a Torre para cumprir sua miss\xE3o.\r\n\n"
+    de subjuga\xE7\xE3o de monstros e limpar a torre do controle do Lich. \r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ca2c57b5fde3914780073210b217410, type: 2}
   m_sharedMaterial: {fileID: 8744639686982291351, guid: 8ca2c57b5fde3914780073210b217410, type: 2}
@@ -461,6 +461,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1268819482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268819477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0af2ad8535f7c645be24912bceff207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1378993674
 GameObject:
   m_ObjectHideFlags: 0
