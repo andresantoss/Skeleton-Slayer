@@ -8,6 +8,7 @@ public class boss3 : MonoBehaviour
     bool enableAtc;
     int atkStep;
     public float lookRadius = 15f;
+    public GameObject prefab;
 
     public void Start()
     {
@@ -25,7 +26,6 @@ public class boss3 : MonoBehaviour
     }
     public void MoveBoss3()
     {
-
         float distance = Vector3.Distance(target.position, transform.position);
         if (distance <= lookRadius)
         {
@@ -67,6 +67,7 @@ public class boss3 : MonoBehaviour
                 case 0:
                     atkStep += 1;
                     boss3Anim.Play("Boss3_AtkA");
+                    Instantiate(prefab);
                     break;
                 case 1:
                     atkStep += 1;
