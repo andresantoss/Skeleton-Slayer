@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public Transform respawnPoint;
     public GameObject mainMenu;
     public GameObject youDie;
+    public GameObject youDieRawImage;
     public GameObject hud;
     public GameObject cpWarning;
     // Start is called before the first frame update
@@ -90,9 +91,11 @@ public class PlayerController : MonoBehaviour
     public IEnumerator resetRespawn()
     {
         youDie.SetActive(true);
+        youDieRawImage.SetActive(true);
         hud.SetActive(true);
         yield return new WaitForSeconds(4f);
         youDie.SetActive(false);
+        youDieRawImage.SetActive(false);
         hud.SetActive(false);
         mainMenu.SetActive(true);
         controller.transform.position = respawnPoint.transform.position;
@@ -107,7 +110,6 @@ public class PlayerController : MonoBehaviour
     }
     public void Knockback(Vector3 direction, float knockBackForce)
     {
-        Debug.Log("knockback");
         knockBackCounter = knockBackTime;
         moveDirection = direction * knockBackForce;
         moveDirection.y = knockBackForce;

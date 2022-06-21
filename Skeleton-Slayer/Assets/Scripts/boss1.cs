@@ -48,11 +48,13 @@ public class boss1 : MonoBehaviour
 
     public void Update()
     {
-
-        if (enableAtc)
+        if (boss1Anim.GetInteger("transition") != 4)
         {
-            RotateBoss1();
-            MoveBoss1();
+            if (enableAtc)
+            {
+                RotateBoss1();
+                MoveBoss1();
+            }
         }
     }
     public void boss1Atk()
