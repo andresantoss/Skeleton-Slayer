@@ -25,20 +25,18 @@ public class boss2 : MonoBehaviour
     }
     public void MoveBoss2()
     {
-        if (boss2Anim.GetInteger("transition") != 4)
+
+        float distance = Vector3.Distance(target.position, transform.position);
+        if (distance <= lookRadius)
         {
-            float distance = Vector3.Distance(target.position, transform.position);
-            if (distance <= lookRadius)
+            if ((target.position - transform.position).magnitude >= 2)
             {
-                if ((target.position - transform.position).magnitude >= 2)
-                {
-                    boss2Anim.SetInteger("transition", 1);
-                    transform.Translate(Vector3.forward * boss1Speed * Time.deltaTime, Space.Self);
-                }
-                if ((target.position - transform.position).magnitude < 2)
-                {
-                    boss2Anim.SetInteger("transition", 0);
-                }
+                boss2Anim.SetInteger("transition", 1);
+                transform.Translate(Vector3.forward * boss1Speed * Time.deltaTime, Space.Self);
+            }
+            if ((target.position - transform.position).magnitude < 2)
+            {
+                boss2Anim.SetInteger("transition", 0);
             }
         }
     }
@@ -51,11 +49,13 @@ public class boss2 : MonoBehaviour
 
     public void Update()
     {
-
-        if (enableAtc)
+        if (boss2Anim.GetInteger("transition") != 4)
         {
-            RotateBoss2();
-            MoveBoss2();
+            if (enableAtc)
+            {
+                RotateBoss2();
+                MoveBoss2();
+            }
         }
     }
     public void boss2Atk()
