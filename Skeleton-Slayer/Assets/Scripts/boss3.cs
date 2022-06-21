@@ -69,17 +69,21 @@ public class boss3 : MonoBehaviour
                     boss3Anim.Play("Boss3_AtkA");
                     break;
                 case 1:
-                    atkStep = 0;
+                    atkStep += 1;
                     boss3Anim.Play("Boss3_AtkB");
+                    break;
+                case 2:
+                    atkStep = 0;
+                    boss3Anim.Play("Boss3_AtkC");
                     break;
             }
         }
     }
-    public void FreezeBoss3()
+    public void FreezeBoss()
     {
         enableAtc = false;
     }
-    public void UnFreezeBoss3()
+    public void UnFreezeBoss()
     {
         enableAtc = true;
     }

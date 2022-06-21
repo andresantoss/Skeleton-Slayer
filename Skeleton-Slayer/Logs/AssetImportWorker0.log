@@ -15,7 +15,7 @@ C:/projetos/jogo_facu/Skeleton-Slayer/Skeleton-Slayer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64450
+61051
 Successfully changed project path to: C:/projetos/jogo_facu/Skeleton-Slayer/Skeleton-Slayer
 C:/projetos/jogo_facu/Skeleton-Slayer/Skeleton-Slayer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/projetos/jogo_facu/Skeleton-Slayer/Skeleton-Slayer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 88.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.012124 seconds.
+Registered in 0.014837 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (753ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (346ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (582ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008881 seconds.
+Registered in 0.007653 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -113,46 +113,46 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
+- Completed reload, in  1.912 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1097ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1913ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (98ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1583ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (629ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3448 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (183.4 KB). Loaded Objects now: 3933.
-Memory consumption went from 137.4 MB to 137.3 MB.
-Total: 3.005700 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.225000 ms MarkObjects: 2.383300 ms  DeleteObjects: 0.126100 ms)
+Memory consumption went from 137.4 MB to 137.2 MB.
+Total: 2.899400 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.209900 ms MarkObjects: 2.220500 ms  DeleteObjects: 0.148900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,139 +166,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58672.174697 seconds.
-  path: Assets/source/lordBoss@T-Pose.fbx
-  artifactKey: Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/lordBoss@T-Pose.fbx using Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2e418c071a8c6e2682dadd2182ca2c') in 0.409715 seconds 
+  Time since last request: 61747.927410 seconds.
+  path: Assets/Textures/trono/caveira 1.mat
+  artifactKey: Guid(4ab865b9feafc0f4997c4f7c9ab9ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/caveira 1.mat using Guid(4ab865b9feafc0f4997c4f7c9ab9ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628af6442e64cad1632a10bda0af977b') in 0.128725 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.384157 seconds.
-  path: Assets/source/lordBoss@T-Pose.fbx
-  artifactKey: Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/lordBoss@T-Pose.fbx using Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc207d86a86ec4cdf1ca75efe8fea38') in 0.163657 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/trono/cabeceira.mat
+  artifactKey: Guid(fb2bca2ab05f16d42a78181381c5d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/cabeceira.mat using Guid(fb2bca2ab05f16d42a78181381c5d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052645545c74be7c6d83b5bab03bfd05') in 0.017080 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.293724 seconds.
-  path: Assets/source/Boss3.fbx
-  artifactKey: Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/Boss3.fbx using Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823e5387f4bdb35d0fbab6ecdcb943b0') in 0.155505 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/trono/caveira 3.mat
+  artifactKey: Guid(86c1a736b189b90419a994a3ddc87a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/caveira 3.mat using Guid(86c1a736b189b90419a994a3ddc87a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2faf5a6443e0cf5a65434b641122a08') in 0.016073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.637548 seconds.
-  path: Assets/Materials/boss3/body.mat
-  artifactKey: Guid(7566c04621e19f04b8bc25397a4870dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/boss3/body.mat using Guid(7566c04621e19f04b8bc25397a4870dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb025a570ba88dbeddbbb3ada6b52ea8') in 0.028454 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/trono/chifre 3.mat
+  artifactKey: Guid(3c48f8816620bc14b807a408094b9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/chifre 3.mat using Guid(3c48f8816620bc14b807a408094b9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0af7bc8d51e5be5e37e75dad78c1fae') in 0.017269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Materials/boss3/helmet.mat
-  artifactKey: Guid(ac09c19aaaa5f194ba62f5fab31fb5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/boss3/helmet.mat using Guid(ac09c19aaaa5f194ba62f5fab31fb5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0007b2902a5b30a6967ac99394bf2d7d') in 0.027983 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/trono/caveira 2.mat
+  artifactKey: Guid(21d59acc767969048bf5c6f0955e52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/caveira 2.mat using Guid(21d59acc767969048bf5c6f0955e52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036eb7504e8d94f1cf7604bb2a971b9a') in 0.017152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/trono/chifre 2.mat
+  artifactKey: Guid(301ecbe2bb6496645a0b5d958adb12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trono/chifre 2.mat using Guid(301ecbe2bb6496645a0b5d958adb12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc319d514c0beaa231360638109a88c') in 0.014826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.957607 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Area Attack 01.fbx
+  artifactKey: Guid(b23678dcd55827546a963078dd5625f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Area Attack 01.fbx using Guid(b23678dcd55827546a963078dd5625f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd20dcc6d89d6ae908a8b16579f7b4c') in 0.062336 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Materials/boss3/cloth.mat
-  artifactKey: Guid(dc391844df10dad408fc014ae1735fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/boss3/cloth.mat using Guid(dc391844df10dad408fc014ae1735fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3315763ad0683fb13cec8844060d02e5') in 0.023007 seconds 
+  path: Assets/Animation/Enemies/Boss3/boss3@Standing React Death Backward.fbx
+  artifactKey: Guid(5bc65dfc23346604cbc30fc37c9de4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Standing React Death Backward.fbx using Guid(5bc65dfc23346604cbc30fc37c9de4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de837c49b640c0b86b883c6b2dadc44') in 0.014267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.433003 seconds.
-  path: Assets/source/Boss3.fbx
-  artifactKey: Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/Boss3.fbx using Guid(c840257178c3ace48af0dfc724adda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cce9ae23eead697738dd3632a5b480') in 0.151020 seconds 
+  Time since last request: 2.467399 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing 2H Magic Area Attack 01.anim
+  artifactKey: Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing 2H Magic Area Attack 01.anim using Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e2dcf48ebe9ef7b8352204ef5d69dc') in 0.024395 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.708961 seconds.
-  path: Assets/Prefabs/Boss3.prefab
-  artifactKey: Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss3.prefab using Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5423c5a886fedc3d8b61f16ca2fcf7') in 0.053996 seconds 
+  Time since last request: 4.800198 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing React Death Backward.anim
+  artifactKey: Guid(f87b94a198ecd7a4190e629819985f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing React Death Backward.anim using Guid(f87b94a198ecd7a4190e629819985f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f19ea177ff2f8a06523a0ca0466b90a') in 0.018755 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.876418 seconds.
-  path: Assets/Prefabs/Boss3.prefab
-  artifactKey: Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss3.prefab using Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dbdf8bc88f062960364fe461431068') in 0.023540 seconds 
+  Time since last request: 17.966355 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3AttackC.anim
+  artifactKey: Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3AttackC.anim using Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1fa53555530ca2295f7f7791a3a437') in 0.018706 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.799248 seconds.
-  path: Assets/Prefabs/Boss3.prefab
-  artifactKey: Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss3.prefab using Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff583d0aed02d453737b5d81c311b1b') in 0.043633 seconds 
+  Time since last request: 11.049733 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3_AtkB.anim
+  artifactKey: Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3_AtkB.anim using Guid(f6a6fb6642f1fde4aa14c3b9546af614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2b5979a427cab8f9778609b6e0b61e') in 0.021005 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.500593 seconds.
-  path: Assets/Prefabs/Boss3.prefab
-  artifactKey: Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss3.prefab using Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46742098fe568127daa80750ef7ddaa1') in 0.028686 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007280 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1200ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 3991.
-Memory consumption went from 153.4 MB to 153.3 MB.
-Total: 2.943400 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.191700 ms MarkObjects: 2.345400 ms  DeleteObjects: 0.094000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 8.306473 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3-Death.anim
+  artifactKey: Guid(f87b94a198ecd7a4190e629819985f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3-Death.anim using Guid(f87b94a198ecd7a4190e629819985f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a62c8469f75275afe05ee4b044a27b2') in 0.017560 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 107.134305 seconds.
+  Time since last request: 7.935937 seconds.
   path: Assets/Animation/Enemies/Boss3/Boss3.controller
   artifactKey: Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Boss3.controller using Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fb321d9da94f37ff98a76bdd1cdd8e') in 0.058152 seconds 
+Start importing Assets/Animation/Enemies/Boss3/Boss3.controller using Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31b4dcee9cd7d5ff765940c65fd95bd') in 0.012389 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005758 seconds.
+Registered in 0.007074 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -306,43 +259,43 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
+- Completed reload, in  1.049 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1489ms)
+	ReloadAssembly (1049ms)
 		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1207ms)
-			LoadAssemblies (161ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (457ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (405ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.9 KB). Loaded Objects now: 4006.
-Memory consumption went from 153.5 MB to 153.3 MB.
-Total: 2.717400 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.147000 ms MarkObjects: 2.241500 ms  DeleteObjects: 0.089800 ms)
+Unloading 18 unused Assets / (150.6 KB). Loaded Objects now: 3987.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 2.805200 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.323500 ms  DeleteObjects: 0.088100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -355,51 +308,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 24.100408 seconds.
-  path: Assets/Animation/Enemies
-  artifactKey: Guid(dcc756f4e1453c2438f36a464301fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies using Guid(dcc756f4e1453c2438f36a464301fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042b8bb4dc3cdb9994bb5ac5c95f11ba') in 0.018600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.345409 seconds.
-  path: Assets/Animation/Enemies/Boss3/lordBoss@Falling Forward Death.fbx
-  artifactKey: Guid(b9dd8c12fb5ce9e48baa7321a8f1e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/lordBoss@Falling Forward Death.fbx using Guid(b9dd8c12fb5ce9e48baa7321a8f1e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d643741643aa6a74ee697030a39c36b') in 0.035522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Enemies/Boss3/lordBoss@Walking (1).fbx
-  artifactKey: Guid(65ffcd086b379724d9b6ea631c4825d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/lordBoss@Walking (1).fbx using Guid(65ffcd086b379724d9b6ea631c4825d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfff946170c6a977ba765836c27e6a05') in 0.017552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Enemies/Boss3/lordBoss@Orc Idle.fbx
-  artifactKey: Guid(d6f8ff09d75d4344ca639fabfe41805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/lordBoss@Orc Idle.fbx using Guid(d6f8ff09d75d4344ca639fabfe41805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaeb8061a0723ffde8748b3ea4a0962') in 0.012358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Animation/Enemies/Boss3/lordBoss@Sitting Rubbing Arm (1).fbx
-  artifactKey: Guid(04d5a8b8e4e3e614abb06cdb3bf276d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/lordBoss@Sitting Rubbing Arm (1).fbx using Guid(04d5a8b8e4e3e614abb06cdb3bf276d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff0128a14a35f601b9224ef23b37b9a') in 0.015257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Animation/Enemies/Boss3/lordBoss@Sit To Stand (1).fbx
-  artifactKey: Guid(62f78d41b2c537e46b2e4aca286b2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/lordBoss@Sit To Stand (1).fbx using Guid(62f78d41b2c537e46b2e4aca286b2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3e1132e498c1741d656a8df9d36d3e') in 0.014132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.038461 seconds.
-  path: Assets/Animation/Enemies/Boss3/Falling Forward Death.anim
-  artifactKey: Guid(2e2861f92828c8349b0a8e39d93ddd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Falling Forward Death.anim using Guid(2e2861f92828c8349b0a8e39d93ddd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199b55c20f904a21e3c269a3be887762') in 0.014038 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006099 seconds.
+Registered in 0.006071 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -407,186 +318,463 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
+- Completed reload, in  1.212 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1226ms)
+	ReloadAssembly (1213ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (966ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4002.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 5.819800 ms (FindLiveObjects: 0.397600 ms CreateObjectMapping: 0.208200 ms MarkObjects: 5.113500 ms  DeleteObjects: 0.099200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4017.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 4.035900 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.395400 ms MarkObjects: 2.993700 ms  DeleteObjects: 0.238700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006356 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1241ms)
 		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (975ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (991ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (278ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (435ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4032.
+Memory consumption went from 140.6 MB to 140.4 MB.
+Total: 2.987400 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.390600 ms  DeleteObjects: 0.108100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006687 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4047.
+Memory consumption went from 140.6 MB to 140.4 MB.
+Total: 3.404600 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.814300 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1111ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4062.
+Memory consumption went from 140.6 MB to 140.5 MB.
+Total: 3.507800 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.409300 ms MarkObjects: 2.642700 ms  DeleteObjects: 0.092900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 452.325556 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Walking.fbx
+  artifactKey: Guid(4990d9bb8d8eeed4ba9474be384b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Walking.fbx using Guid(4990d9bb8d8eeed4ba9474be384b9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2dabd301b8937087809ec7dba41667') in 0.041672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.859573 seconds.
+  path: Assets/Animation/Enemies/Boss3/Walking.anim
+  artifactKey: Guid(2d76031845e1e974fbf89168d69e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Walking.anim using Guid(2d76031845e1e974fbf89168d69e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b48457cad159c81baadeb096f15873') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.651749 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3-Walking.anim
+  artifactKey: Guid(2d76031845e1e974fbf89168d69e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3-Walking.anim using Guid(2d76031845e1e974fbf89168d69e4d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbbf8f9560e940bbcbf96226efea037') in 0.010464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.736499 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3-Idle.anim
+  artifactKey: Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3-Idle.anim using Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31622e0049b8b3070524d1733d355631') in 0.012022 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (517ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4077.
+Memory consumption went from 140.6 MB to 140.5 MB.
+Total: 3.392300 ms (FindLiveObjects: 0.398000 ms CreateObjectMapping: 0.336300 ms MarkObjects: 2.498100 ms  DeleteObjects: 0.158700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.294667 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Standing 1H Magic Attack 03.fbx
+  artifactKey: Guid(24fdc37d335598e46b6e5398f7863115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Standing 1H Magic Attack 03.fbx using Guid(24fdc37d335598e46b6e5398f7863115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381685d78c2bc8ebd50024f2ea615958') in 0.043395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.382366 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing 1H Magic Attack 03.anim
+  artifactKey: Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing 1H Magic Attack 03.anim using Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f38409c6f2b7fd56df4035fcd67a85') in 0.034340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.408447 seconds.
+  path: Assets/Animation/Enemies/Boss3/B.anim
+  artifactKey: Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/B.anim using Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbbec08a0501132879219a5738cd4de') in 0.034684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.787692 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3.controller
+  artifactKey: Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3.controller using Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff01fcf07a61c26134b5be3f3d3110d') in 0.037065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.496664 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3_AtkA.anim
+  artifactKey: Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3_AtkA.anim using Guid(8526d864cb80ced4eb333fed8ee7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c30d809cbaa8ca3543e154cff183bd') in 0.034586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.440081 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Sit To Stand.fbx
+  artifactKey: Guid(b5ff7e9c7b8cf7e40bfc695fa79af13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Sit To Stand.fbx using Guid(b5ff7e9c7b8cf7e40bfc695fa79af13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d3f8d58654c6e314bc2cd55f87b34b') in 0.012800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.830809 seconds.
+  path: Assets/Animation/Enemies/Boss3/Sit To Stand.anim
+  artifactKey: Guid(332a99777ba7ae64aad7ab99be8c19dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Sit To Stand.anim using Guid(332a99777ba7ae64aad7ab99be8c19dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc007e05bb00d8f36bbc981bc8f480e') in 0.024663 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009517 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4021.
-Memory consumption went from 153.5 MB to 153.4 MB.
-Total: 2.681800 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.201900 ms MarkObjects: 2.094200 ms  DeleteObjects: 0.095000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 147.443873 seconds.
-  path: Assets/Prefabs/Boss3.prefab
-  artifactKey: Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss3.prefab using Guid(6775b7968bd32a4489882da654467ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de14838e0234a4a2b8628ebea18ceb08') in 0.029615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1299.447523 seconds.
-  path: Assets/Animation/Enemies/Boss3/boss3@Orc Idle.fbx
-  artifactKey: Guid(b2ac90cc560f2f641bb4ce37b5c6e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/boss3@Orc Idle.fbx using Guid(b2ac90cc560f2f641bb4ce37b5c6e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee844a78498ee427553bf26124890458') in 0.014309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx
-  artifactKey: Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx using Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c99622628db908cdc95d27bb34b613') in 0.159079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Animation/Enemies/Boss3/boss3@Sitting.fbx
-  artifactKey: Guid(64f82f2e86c65174f96e07045fe00012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/boss3@Sitting.fbx using Guid(64f82f2e86c65174f96e07045fe00012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1263d44aa175b60d4f792ace2d62c128') in 0.014721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.849237 seconds.
-  path: Assets/Animation/Enemies/Boss3/cloth.002.mat
-  artifactKey: Guid(1f27969370de4364db81531f7f9629df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/cloth.002.mat using Guid(1f27969370de4364db81531f7f9629df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c26feab4e689322626cdc9a3ab62ffd') in 0.024383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.859757 seconds.
-  path: Assets/Textures/boss3Texture/helmetNormal.png
-  artifactKey: Guid(fa89b41412749444cab5f8eff2097c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/boss3Texture/helmetNormal.png using Guid(fa89b41412749444cab5f8eff2097c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bde004765e8b1727f13b463b415d5f') in 0.142194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.596110 seconds.
-  path: Assets/Animation/Enemies/Boss3/clothColor.png
-  artifactKey: Guid(69edffe59c342a04fbda98d6e4d546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/clothColor.png using Guid(69edffe59c342a04fbda98d6e4d546ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61e30389696a1beb506e96e083094e') in 0.019366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.107129 seconds.
-  path: Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx
-  artifactKey: Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx using Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65496db474cd7cc59b03bd536fed41b') in 0.091996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.555286 seconds.
-  path: Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx
-  artifactKey: Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/boss3@T-Pose.fbx using Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e34a020bd5f1d0a8d4d8f5214e53a4a') in 0.100360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.677144 seconds.
-  path: Assets/source/boss3.fbx
-  artifactKey: Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/boss3.fbx using Guid(a662678bad23dfc498b32c3f9571e22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bcd329ca31bce0c70321071f1523d9') in 0.086605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 146.589086 seconds.
-  path: Assets/Prefabs/enemy
-  artifactKey: Guid(125dda3d6dea72e43822cf52d29dd640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy using Guid(125dda3d6dea72e43822cf52d29dd640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8070391ab98b009fa7f8321d56427153') in 0.071554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.448730 seconds.
-  path: Assets/Prefabs/enemy/Boss3.prefab
-  artifactKey: Guid(3b3ce35028e13024e9ddc69c1b2bebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy/Boss3.prefab using Guid(3b3ce35028e13024e9ddc69c1b2bebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5835ae744395f267b3b7a866fd07bcd') in 0.050863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.573494 seconds.
-  path: Assets/Prefabs/enemy/Boss1.prefab
-  artifactKey: Guid(32cda196653ec2e45a9e968ba565c269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy/Boss1.prefab using Guid(32cda196653ec2e45a9e968ba565c269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b45c0fb67b3f37a4689ecdee9333aad') in 0.307847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.721930 seconds.
-  path: Assets/Prefabs/enemy/Boss2.prefab
-  artifactKey: Guid(0810eedd209bbde4b9c62f06e92d37fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemy/Boss2.prefab using Guid(0810eedd209bbde4b9c62f06e92d37fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c869c8d6a301c8b9aef509bd6156705') in 0.184878 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005988 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1191ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (931ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.9 KB). Loaded Objects now: 4041.
-Memory consumption went from 153.8 MB to 153.7 MB.
-Total: 4.833400 ms (FindLiveObjects: 0.643800 ms CreateObjectMapping: 0.644200 ms MarkObjects: 3.427400 ms  DeleteObjects: 0.116700 ms)
+Unloading 18 unused Assets / (150.9 KB). Loaded Objects now: 4092.
+Memory consumption went from 140.7 MB to 140.5 MB.
+Total: 3.910000 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.834200 ms MarkObjects: 2.713700 ms  DeleteObjects: 0.103400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -601,7 +789,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008681 seconds.
+Registered in 0.008442 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -609,7 +797,7 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.273 seconds
@@ -621,818 +809,31 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1011ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (521ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4056.
-Memory consumption went from 153.8 MB to 153.7 MB.
-Total: 4.123900 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.380600 ms MarkObjects: 3.345800 ms  DeleteObjects: 0.099200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 50.751942 seconds.
-  path: Assets/Animation/Enemies/Boss3/Orc Idle.anim
-  artifactKey: Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Orc Idle.anim using Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aac803326628af2a283a4668a67012') in 0.026038 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006168 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1236ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (988ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (151.1 KB). Loaded Objects now: 4071.
-Memory consumption went from 153.9 MB to 153.7 MB.
-Total: 4.118200 ms (FindLiveObjects: 0.415300 ms CreateObjectMapping: 0.417000 ms MarkObjects: 3.181200 ms  DeleteObjects: 0.103500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9.770812 seconds.
-  path: Assets/Animation/Enemies/Boss3/Boss3.controller
-  artifactKey: Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Boss3.controller using Guid(f0c7d5a6248218848a77032d7c904c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58156a2bd29d7a4f621b0bddc041f76') in 0.020083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.320326 seconds.
-  path: Assets/Animation/Enemies/Boss3/Boss3-Idle.anim
-  artifactKey: Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Boss3-Idle.anim using Guid(bc0dd2ecae1e07048a8d3c5551aa7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20640b67a9341e3bb63509c08261310') in 0.014309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.583826 seconds.
-  path: Assets/Animation/Enemies/Boss3/Sitting.anim
-  artifactKey: Guid(8097fe9c6fe57204d9bccaef36053dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Sitting.anim using Guid(8097fe9c6fe57204d9bccaef36053dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409ea2fd61c83a8c289dcaf0d2fc7df0') in 0.008938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.857078 seconds.
-  path: Assets/Animation/Enemies/Boss3/Boss3-Sitting.anim
-  artifactKey: Guid(8097fe9c6fe57204d9bccaef36053dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Boss3/Boss3-Sitting.anim using Guid(8097fe9c6fe57204d9bccaef36053dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980582c6d93d5679bbf34bdc289dc8ef') in 0.006090 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005959 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1408ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (472ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4086.
-Memory consumption went from 153.9 MB to 153.7 MB.
-Total: 4.381200 ms (FindLiveObjects: 0.328900 ms CreateObjectMapping: 0.186700 ms MarkObjects: 3.676500 ms  DeleteObjects: 0.187800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006174 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1020ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (489ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4101.
-Memory consumption went from 153.9 MB to 153.8 MB.
-Total: 3.620200 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.365300 ms MarkObjects: 2.805600 ms  DeleteObjects: 0.095800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 58.342466 seconds.
-  path: Assets/Prefabs/satanic-lord-throne.zip
-  artifactKey: Guid(02b61cc873e15674bab5f6dfe51b3139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/satanic-lord-throne.zip using Guid(02b61cc873e15674bab5f6dfe51b3139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32214c2b20d50cfdfa69158c689bbfc2') in 0.028059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.665964 seconds.
-  path: Assets/source/3935d01a95ad4032a08d070d5740d472.rar.rar
-  artifactKey: Guid(cc84cb701ba2bf645bccd4e0f7a9fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/3935d01a95ad4032a08d070d5740d472.rar.rar using Guid(cc84cb701ba2bf645bccd4e0f7a9fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ff738793f08b07dde4213454691d9b') in 0.023996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.784345 seconds.
-  path: Assets/source/trono
-  artifactKey: Guid(bf48ff28ba5ebc949b5368e0928451ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono using Guid(bf48ff28ba5ebc949b5368e0928451ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d0063f690c7a25026e9ad04af12779') in 0.007473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060784 seconds.
-  path: Assets/source/trono/bracos_Base_Color.png
-  artifactKey: Guid(aea11a182d0024f45827b83cd2955045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Base_Color.png using Guid(aea11a182d0024f45827b83cd2955045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c06595fc22bd247aabc3930b380286') in 0.038478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/source/trono/bracos_Metallic.png
-  artifactKey: Guid(ba219c61db44b8049962cb3d11bd02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Metallic.png using Guid(ba219c61db44b8049962cb3d11bd02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbbfa25f1c46fca7dfa709d7c6e9815') in 0.022736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/source/trono/caveira 3_Mixed_AO.png
-  artifactKey: Guid(a5f2622b359dbc641b9f40d2ce0aa6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Mixed_AO.png using Guid(a5f2622b359dbc641b9f40d2ce0aa6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656152b9ba99c0d4afeb9f5058a38b94') in 0.019942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/chifre 3_Height.png
-  artifactKey: Guid(ba63ad7d297f1b14da4eb5120855a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Height.png using Guid(ba63ad7d297f1b14da4eb5120855a456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd399ea045a2b178f9f8f96b6a28cd5b0') in 0.014864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/source/trono/caveira 3_Roughness.png
-  artifactKey: Guid(013acb4b6ffe1d548adaff5276066660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Roughness.png using Guid(013acb4b6ffe1d548adaff5276066660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f968418fbb4918016e38cb64a029b402') in 0.017067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/estofado_Mixed_AO.png
-  artifactKey: Guid(360916231fd8cdb4fa6a61eb13ce7eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Mixed_AO.png using Guid(360916231fd8cdb4fa6a61eb13ce7eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd72aea5f8c65d61e7fca53ad4e9e74') in 0.018247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/caveira 3_Metallic.png
-  artifactKey: Guid(577ea962a24ed6040adddb098d10661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Metallic.png using Guid(577ea962a24ed6040adddb098d10661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aecb5f2e972505143de757254fabb86') in 0.013213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/source/trono/chifre 3_Base_Color.png
-  artifactKey: Guid(a9c60e0ffdee91646b7d15b0626ba01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Base_Color.png using Guid(a9c60e0ffdee91646b7d15b0626ba01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd934345e388e4e09b83c3e040b20da44') in 0.016262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/source/trono/chifres 1_Normal.png
-  artifactKey: Guid(cbf1465226bbd974c9fa7cc21bce1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Normal.png using Guid(cbf1465226bbd974c9fa7cc21bce1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39518d7a8e47856bd53e5f7882d09f1') in 0.028708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015831 seconds.
-  path: Assets/source/trono/chifres 1_Height.png
-  artifactKey: Guid(343c07de7dd16af4ba548b44ad25cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Height.png using Guid(343c07de7dd16af4ba548b44ad25cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f612459a818346dbf613cd007179af') in 0.030379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/chifre 2_Normal_OpenGL.png
-  artifactKey: Guid(a98e41cf337775e46a013dfbc6fea151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Normal_OpenGL.png using Guid(a98e41cf337775e46a013dfbc6fea151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b194ebecad062903f585b52741d10') in 0.034188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/source/trono/caveira 1_Normal_OpenGL.png
-  artifactKey: Guid(2ba1e9c6301cf5f43a19fced463c2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Normal_OpenGL.png using Guid(2ba1e9c6301cf5f43a19fced463c2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bad0e7baee28fa876d554df777a5f5') in 0.036049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/source/trono/estofado_Metallic.png
-  artifactKey: Guid(239d63b8b8aae804caa24cead45ac444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Metallic.png using Guid(239d63b8b8aae804caa24cead45ac444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bd4b0b8e12fb478db449bcc4327511') in 0.016666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/caveira 1_Normal.png
-  artifactKey: Guid(a6797fec72aefe9409178344cd645c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Normal.png using Guid(a6797fec72aefe9409178344cd645c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0020944664aeef2964c21db2900c191') in 0.020215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/caveira 2_Normal_OpenGL.png
-  artifactKey: Guid(e3494be83e7feef4d8e3076b4edb8482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Normal_OpenGL.png using Guid(e3494be83e7feef4d8e3076b4edb8482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9989a1e6ce3d9c0ccb098a703a383d') in 0.014498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/source/trono/caveira 3_Height.png
-  artifactKey: Guid(234dc95ce6e11614a8878b4a30e56bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Height.png using Guid(234dc95ce6e11614a8878b4a30e56bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c2bd0afe4226077585389091f476e4') in 0.024082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/bracos_Normal.png
-  artifactKey: Guid(94c42d3565a9d1f4eaca661f9dd3c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Normal.png using Guid(94c42d3565a9d1f4eaca661f9dd3c212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6a39ec43670894b954e7c7d8894efb') in 0.019657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/source/trono/cabeceira_Normal_OpenGL.png
-  artifactKey: Guid(827c7efed7a5d414b859f5a11e5d2491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Normal_OpenGL.png using Guid(827c7efed7a5d414b859f5a11e5d2491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684c8cd7f7f5241e4bb95dd3169018d1') in 0.016262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/source/trono/chifre 3_Roughness.png
-  artifactKey: Guid(c9e138289b6813b449a7049048265ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Roughness.png using Guid(c9e138289b6813b449a7049048265ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056a0dbb98c4c5a44c9007175be1da0a') in 0.019770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/source/trono/caveira 1_Height.png
-  artifactKey: Guid(bbe0135590951584fa20ad2702dc22ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Height.png using Guid(bbe0135590951584fa20ad2702dc22ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b83e70bb41b1bb8735f8843a565d2da') in 0.024270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/source/trono/chifre 3_Metallic.png
-  artifactKey: Guid(9703cc2912cf87b499a2c17092d71076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Metallic.png using Guid(9703cc2912cf87b499a2c17092d71076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb1b81214f705448f541144c2928c0') in 0.019140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/source/trono/caveira 2_Height.png
-  artifactKey: Guid(56c35cde4041ae34caaa432cd5d83042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Height.png using Guid(56c35cde4041ae34caaa432cd5d83042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac02ad0a987946813a7cca21112076fb') in 0.026154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/caveira 1_Metallic.png
-  artifactKey: Guid(0197aaa634265734e99a3cebaf9e4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Metallic.png using Guid(0197aaa634265734e99a3cebaf9e4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d633b52412fb9d3ecccfb7e759ed69') in 0.013998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/caveira 2_Roughness.png
-  artifactKey: Guid(57ac1fb628cdef84982c7916a7d1d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Roughness.png using Guid(57ac1fb628cdef84982c7916a7d1d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574ef364e1598643a2a5623c8a1310b') in 0.029456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/source/trono/chifre 3_Normal_OpenGL.png
-  artifactKey: Guid(7f2b57d7817cbbe4dbbea58c9e5743be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Normal_OpenGL.png using Guid(7f2b57d7817cbbe4dbbea58c9e5743be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36a0a10d6f485cb2deaa5dcd8283d6') in 0.021681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/source/trono/estofado_Roughness.png
-  artifactKey: Guid(d6e3580a0355a11408d78abbff68eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Roughness.png using Guid(d6e3580a0355a11408d78abbff68eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c04eb91924a01a54997f5e2b9b3846') in 0.016538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/chifres 1_Mixed_AO.png
-  artifactKey: Guid(1ab6cdce252747841a9a9fa53b2cbc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Mixed_AO.png using Guid(1ab6cdce252747841a9a9fa53b2cbc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4fd4eb2c1fbab4a5d0ef7bf3e659b9') in 0.026865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/source/trono/chifre 2_Height.png
-  artifactKey: Guid(a097c5574ef4c4a4eb7cd4cb40ce7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Height.png using Guid(a097c5574ef4c4a4eb7cd4cb40ce7fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b35ac531760553851ffffbd16b04cef') in 0.019086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/source/trono/caveira 3_Normal.png
-  artifactKey: Guid(8af0256f711ad314a9aabbc1d90c33ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Normal.png using Guid(8af0256f711ad314a9aabbc1d90c33ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c092aaeb9a3dd2a7ec91e867aa170') in 0.020097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/source/trono/cabeceira_Normal.png
-  artifactKey: Guid(4a7aa1c8fcf0d6242833d7d92179e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Normal.png using Guid(4a7aa1c8fcf0d6242833d7d92179e766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe99433e949d9f4c7bbdde4872762b') in 0.020787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/chifre 2_Normal.png
-  artifactKey: Guid(6c4a729ae66ac38448874137d88d8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Normal.png using Guid(6c4a729ae66ac38448874137d88d8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdff3f0aa9ff392aeabed487afa38e1') in 0.015490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/cabeceira_Metallic.png
-  artifactKey: Guid(e08c902281e2d82419ea6f5ec6a3a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Metallic.png using Guid(e08c902281e2d82419ea6f5ec6a3a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce728828f6847fafad20645b58d7c04') in 0.018643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/chifre 2_Mixed_AO.png
-  artifactKey: Guid(0484ee7aa46a8e047a26d9af701f5e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Mixed_AO.png using Guid(0484ee7aa46a8e047a26d9af701f5e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f77749c005ee48c8d2af57988b5ee34') in 0.020450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/cabeceira_Roughness.png
-  artifactKey: Guid(03e87988d7fe6e04aa9729bff7e1f79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Roughness.png using Guid(03e87988d7fe6e04aa9729bff7e1f79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325164f0ecb196b5f1ac02019708533') in 0.019284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/source/trono/chifre 2_Base_Color.png
-  artifactKey: Guid(5095b3c118c1f6446b4eec040a55a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Base_Color.png using Guid(5095b3c118c1f6446b4eec040a55a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73acaf527b3433e3389df5a6027c43b') in 0.015493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/caveira 2_Normal.png
-  artifactKey: Guid(f4624eff959f8334ca2f0c850a58271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Normal.png using Guid(f4624eff959f8334ca2f0c850a58271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bf983384cfd1a3b013c06d42fd6e2a') in 0.021794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/source/trono/bracos_Normal_OpenGL.png
-  artifactKey: Guid(bd1f4e3d922a0a342b463c1c518a204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Normal_OpenGL.png using Guid(bd1f4e3d922a0a342b463c1c518a204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e39da93278d23d0c0dd1c1fae8d337') in 0.016676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/source/trono/chifre 2_Metallic.png
-  artifactKey: Guid(9a95d5cabdd42bb4386b49df4f9e6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Metallic.png using Guid(9a95d5cabdd42bb4386b49df4f9e6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b25d210e372eb7ec224a91e718ce9ce') in 0.016132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/source/trono/caveira 2_Mixed_AO.png
-  artifactKey: Guid(358c14f8db92f3b41ac68f068156a63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Mixed_AO.png using Guid(358c14f8db92f3b41ac68f068156a63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346e51414c5b3a1164515d61bde18f09') in 0.014876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/caveira 3_Normal_OpenGL.png
-  artifactKey: Guid(55bbeb7c8ccca894b8d16917736df746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Normal_OpenGL.png using Guid(55bbeb7c8ccca894b8d16917736df746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b9b94228f63a72b6cf75e88dbed18f') in 0.022875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/source/trono/chifre 3_Normal.png
-  artifactKey: Guid(b3dc3ee4acecea14cabb39f64c11403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Normal.png using Guid(b3dc3ee4acecea14cabb39f64c11403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c547de31bbc0c634eeafe43272dea4cb') in 0.018456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/source/trono/chifres 1_Roughness.png
-  artifactKey: Guid(ca441c86b85d710498e3f73c6ff041f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Roughness.png using Guid(ca441c86b85d710498e3f73c6ff041f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd83c0db3e32a0b28860e637bb15feb') in 0.015588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/source/trono/estofado_Base_Color.png
-  artifactKey: Guid(e0c9194b12f41564ebcf2b56c4cf53cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Base_Color.png using Guid(e0c9194b12f41564ebcf2b56c4cf53cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf05139aaabc868f469b161efea5458') in 0.017822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/source/trono/caveira 2_Metallic.png
-  artifactKey: Guid(92bb6dea80cb9b3418437feb6cca83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Metallic.png using Guid(92bb6dea80cb9b3418437feb6cca83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f31efcade7866ecd7e65017cc99562') in 0.023104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/source/trono/chifre 3_Mixed_AO.png
-  artifactKey: Guid(d476e5a8a26c11c43b90150475410b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 3_Mixed_AO.png using Guid(d476e5a8a26c11c43b90150475410b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c582e76cd111a71fe50b63c108a656a') in 0.017740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/source/trono/chifres 1_Base_Color.png
-  artifactKey: Guid(da47116b2ebbb8b4ebd7bc7522c8f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Base_Color.png using Guid(da47116b2ebbb8b4ebd7bc7522c8f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571a80b615585ec4689b1021c39aae8') in 0.015872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/source/trono/caveira 2_Base_Color.png
-  artifactKey: Guid(754691cfb55d94c43a40bf60d6cabd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 2_Base_Color.png using Guid(754691cfb55d94c43a40bf60d6cabd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b8272c81cfc8e1c4d4174a901f4f60') in 0.026741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/source/trono/estofado_Height.png
-  artifactKey: Guid(9910ffbc6a3250448a7042ff6034c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Height.png using Guid(9910ffbc6a3250448a7042ff6034c2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9eadfacf7b7f30e2cdf30372769eda') in 0.017383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/source/trono/caveira 1_Mixed_AO.png
-  artifactKey: Guid(c7b28e443d774bb4c9da45ab097fbb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Mixed_AO.png using Guid(c7b28e443d774bb4c9da45ab097fbb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44e49174ca3cc7b574f7bce97a8fcd0') in 0.029975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/source/trono/trono.fbx
-  artifactKey: Guid(ba8e20f8eb0672e42bc819152ca2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/trono.fbx using Guid(ba8e20f8eb0672e42bc819152ca2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb6791ae504b09182c8a4a52a832b4f') in 0.202352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/chifres 1_Metallic.png
-  artifactKey: Guid(be9259f6e7f1084439769745660bda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Metallic.png using Guid(be9259f6e7f1084439769745660bda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d0d8291d63a796cc90cfd11d56ceba') in 0.029846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/source/trono/chifre 2_Roughness.png
-  artifactKey: Guid(c663efe7c785e6847b18bd461a27b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifre 2_Roughness.png using Guid(c663efe7c785e6847b18bd461a27b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cea2d08b85c0bd458eea788c821f6c3') in 0.015518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/source/trono/cabeceira_Mixed_AO.png
-  artifactKey: Guid(571c931b12d211d4c8856eab189507a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Mixed_AO.png using Guid(571c931b12d211d4c8856eab189507a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f59d5bddb5c8f9a78a55f503ea618fa') in 0.016071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/caveira 3_Base_Color.png
-  artifactKey: Guid(a8bffc85325ada248ae93cf1863d243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 3_Base_Color.png using Guid(a8bffc85325ada248ae93cf1863d243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbc9aa5b6e00b20ae3f896461f19d86') in 0.020442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/source/trono/cabeceira_Height.png
-  artifactKey: Guid(07c467b45ca4d1346938b38f8c9348b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Height.png using Guid(07c467b45ca4d1346938b38f8c9348b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b4d8b395b2a4f02e78b3a73930f806') in 0.020689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/chifres 1_Normal_OpenGL.png
-  artifactKey: Guid(1004c28ab68bdcc4d90b217fa17e2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/chifres 1_Normal_OpenGL.png using Guid(1004c28ab68bdcc4d90b217fa17e2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311f53139c4bfa8b8d0cf981629f26f2') in 0.015521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/source/trono/caveira 1_Roughness.png
-  artifactKey: Guid(a6bb890656c0bf141af7f062ddb136f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Roughness.png using Guid(a6bb890656c0bf141af7f062ddb136f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62ba12b6572072c4f615c39407de480') in 0.019099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/source/trono/bracos_Mixed_AO.png
-  artifactKey: Guid(98b9acb0b92587b4b95997e427a78217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Mixed_AO.png using Guid(98b9acb0b92587b4b95997e427a78217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2bce408fbf671d74c27aebcc4e5ca6') in 0.026266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/source/trono/bracos_Height.png
-  artifactKey: Guid(c1d45c93b0231d145aaca0a866948ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Height.png using Guid(c1d45c93b0231d145aaca0a866948ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad5704dad7a954228f47323dd19f228') in 0.019381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/source/trono/bracos_Roughness.png
-  artifactKey: Guid(b797806b84662b74f8f9779ea24ccb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/bracos_Roughness.png using Guid(b797806b84662b74f8f9779ea24ccb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d5450a4285b3e9c4ca373fa6c8ac67') in 0.014537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/source/trono/estofado_Normal.png
-  artifactKey: Guid(cd46d81034cd5554e90d99f2709f693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Normal.png using Guid(cd46d81034cd5554e90d99f2709f693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8799bb136c18a805e12c90a562fb179') in 0.016787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/source/trono/caveira 1_Base_Color.png
-  artifactKey: Guid(3a105e7be96805244b0669853aa6edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/caveira 1_Base_Color.png using Guid(3a105e7be96805244b0669853aa6edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25bc882632b6d800705ab2e2ee45f53') in 0.024970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/source/trono/cabeceira_Base_Color.png
-  artifactKey: Guid(b1934c590e6915047b32d18b92b5858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/cabeceira_Base_Color.png using Guid(b1934c590e6915047b32d18b92b5858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5addce1f60350624c48e6a63d28f84f') in 0.019832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/source/trono/estofado_Normal_OpenGL.png
-  artifactKey: Guid(1bacef88ad6e6c44b9f841770fa88c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono/estofado_Normal_OpenGL.png using Guid(1bacef88ad6e6c44b9f841770fa88c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7efd83cdc37ee270685bf5be3ef9a6') in 0.019574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.948202 seconds.
-  path: Assets/source/trono.fbx
-  artifactKey: Guid(ba8e20f8eb0672e42bc819152ca2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/trono.fbx using Guid(ba8e20f8eb0672e42bc819152ca2b9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ccfecf14a45efa23a17c23dda60cc6') in 0.121953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.644384 seconds.
-  path: Assets/Materials/bracos.mat
-  artifactKey: Guid(c108e2c0e90f74d48ac76d36f62a7271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/bracos.mat using Guid(c108e2c0e90f74d48ac76d36f62a7271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947774b9b34aac344b59aa51de917db7') in 0.013191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/estofado.mat
-  artifactKey: Guid(2beead808fee0db429d238f09400c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/estofado.mat using Guid(2beead808fee0db429d238f09400c7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8897cca3da93b21fc5eddbcc2c440354') in 0.013739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/chifre 3.mat
-  artifactKey: Guid(3c48f8816620bc14b807a408094b9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chifre 3.mat using Guid(3c48f8816620bc14b807a408094b9ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cb771bfc22029bd84fb5021c6aa676') in 0.024743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/chifre 2.mat
-  artifactKey: Guid(301ecbe2bb6496645a0b5d958adb12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chifre 2.mat using Guid(301ecbe2bb6496645a0b5d958adb12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228e43f9b59c1bd36dce1389e5145935') in 0.016944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/chifres 1.mat
-  artifactKey: Guid(c5950d4ef5431b84c84cc1d171fbabdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/chifres 1.mat using Guid(c5950d4ef5431b84c84cc1d171fbabdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7516f5641a574a7d90e2b89468588b') in 0.014781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/caveira 1.mat
-  artifactKey: Guid(4ab865b9feafc0f4997c4f7c9ab9ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/caveira 1.mat using Guid(4ab865b9feafc0f4997c4f7c9ab9ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7231addf74a155bb344a495064586ec5') in 0.013201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Materials/cabeceira.mat
-  artifactKey: Guid(fb2bca2ab05f16d42a78181381c5d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/cabeceira.mat using Guid(fb2bca2ab05f16d42a78181381c5d94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973824f077f48f348e53b3f4e27130b2') in 0.014977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Materials/caveira 3.mat
-  artifactKey: Guid(86c1a736b189b90419a994a3ddc87a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/caveira 3.mat using Guid(86c1a736b189b90419a994a3ddc87a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988a33b678afacd2ef202ea57aa5601d') in 0.013437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/caveira 2.mat
-  artifactKey: Guid(21d59acc767969048bf5c6f0955e52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/caveira 2.mat using Guid(21d59acc767969048bf5c6f0955e52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc17eacabc39b2fc4c1eab4ccddcf28') in 0.015579 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006969 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1192ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (945ms)
+		EndReloadAssembly (1030ms)
 			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4116.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.828900 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.258200 ms MarkObjects: 3.100500 ms  DeleteObjects: 0.111700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007165 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1257ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (507ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadAttributes (298ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4131.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.771300 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.517100 ms MarkObjects: 2.751700 ms  DeleteObjects: 0.102900 ms)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4107.
+Memory consumption went from 140.7 MB to 140.5 MB.
+Total: 3.475900 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.352300 ms MarkObjects: 2.690500 ms  DeleteObjects: 0.137600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1447,7 +848,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006391 seconds.
+Registered in 0.006888 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -1455,102 +856,43 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
+- Completed reload, in  1.291 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1231ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (989ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (515ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (325ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4146.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.953700 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.300000 ms MarkObjects: 3.238200 ms  DeleteObjects: 0.104200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006623 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1229ms)
+	ReloadAssembly (1292ms)
 		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (987ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (474ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (516ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4161.
-Memory consumption went from 154.2 MB to 154.1 MB.
-Total: 3.750600 ms (FindLiveObjects: 1.022900 ms CreateObjectMapping: 0.220000 ms MarkObjects: 2.401700 ms  DeleteObjects: 0.104400 ms)
+Unloading 18 unused Assets / (150.9 KB). Loaded Objects now: 4122.
+Memory consumption went from 140.7 MB to 140.5 MB.
+Total: 5.619000 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.157400 ms MarkObjects: 4.932400 ms  DeleteObjects: 0.254700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1565,7 +907,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007818 seconds.
+Registered in 0.006383 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -1573,43 +915,43 @@ Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
+- Completed reload, in  1.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1197ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (952ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (469ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (485ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4176.
-Memory consumption went from 154.2 MB to 154.1 MB.
-Total: 3.114000 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.152100 ms MarkObjects: 2.571600 ms  DeleteObjects: 0.119200 ms)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4137.
+Memory consumption went from 140.7 MB to 140.6 MB.
+Total: 3.170200 ms (FindLiveObjects: 0.319500 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.561700 ms  DeleteObjects: 0.097900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1622,68 +964,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006297 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.335 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1093ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (572ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (408ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4191.
-Memory consumption went from 154.3 MB to 154.1 MB.
-Total: 3.099600 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.565300 ms  DeleteObjects: 0.100200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 394.343791 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Attack 03.fbx
+  artifactKey: Guid(944b9201e9841fe46a61e1f1fcf34a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Attack 03.fbx using Guid(944b9201e9841fe46a61e1f1fcf34a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d982e46e596786520129ffa47d2267') in 0.045042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Attack 04.fbx
+  artifactKey: Guid(b0e9d95c30ca8e6449056b88e8c7887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/boss3@Standing 2H Magic Attack 04.fbx using Guid(b0e9d95c30ca8e6449056b88e8c7887a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742952b977416739dd325e32cea55972') in 0.019993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.045066 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 03.anim
+  artifactKey: Guid(99e0790117898494f85fb40981d07e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 03.anim using Guid(99e0790117898494f85fb40981d07e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023d3841fd22ed2d757a721cd805a4ee') in 0.022125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.079481 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3_AtkB.anim
+  artifactKey: Guid(99e0790117898494f85fb40981d07e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3_AtkB.anim using Guid(99e0790117898494f85fb40981d07e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0472505dd2de44fb35cae7ca7b826') in 0.020127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.685560 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 04.anim
+  artifactKey: Guid(38f201b4cf4327b499c3734aa3d133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 04.anim using Guid(38f201b4cf4327b499c3734aa3d133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa7d61ac7be6490af94ae3006cc032b') in 0.058922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.073835 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3_AtkC.anim
+  artifactKey: Guid(38f201b4cf4327b499c3734aa3d133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3_AtkC.anim using Guid(38f201b4cf4327b499c3734aa3d133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd0a240d002df96ae79ac36c1181bca') in 0.059627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.666260 seconds.
+  path: Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 04.anim
+  artifactKey: Guid(0de5514deada2034b84112d6350798cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Standing 2H Magic Attack 04.anim using Guid(0de5514deada2034b84112d6350798cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf6d9675a2522000841949d00659735') in 0.052196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.255942 seconds.
+  path: Assets/Animation/Enemies/Boss3/Boss3_AtkC.anim
+  artifactKey: Guid(0de5514deada2034b84112d6350798cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Boss3/Boss3_AtkC.anim using Guid(0de5514deada2034b84112d6350798cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2eef3098dc0fb859bad8913c3c5e1f5') in 0.061211 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006695 seconds.
+Registered in 0.006915 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -1694,40 +1025,158 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
+- Completed reload, in  1.082 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1083ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4152.
+Memory consumption went from 140.8 MB to 140.6 MB.
+Total: 2.968600 ms (FindLiveObjects: 0.451700 ms CreateObjectMapping: 0.303000 ms MarkObjects: 2.116900 ms  DeleteObjects: 0.096000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006111 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4167.
+Memory consumption went from 140.9 MB to 140.7 MB.
+Total: 2.693000 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.176800 ms MarkObjects: 2.142800 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\projetos\jogo_facu\Skeleton-Slayer\Skeleton-Slayer\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1326ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1111ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (484ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (150.8 KB). Loaded Objects now: 4206.
-Memory consumption went from 154.3 MB to 154.1 MB.
-Total: 5.758100 ms (FindLiveObjects: 1.102000 ms CreateObjectMapping: 0.546100 ms MarkObjects: 3.899100 ms  DeleteObjects: 0.209700 ms)
+Unloading 18 unused Assets / (150.7 KB). Loaded Objects now: 4182.
+Memory consumption went from 140.9 MB to 140.7 MB.
+Total: 3.388000 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.326900 ms MarkObjects: 2.628200 ms  DeleteObjects: 0.157500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
