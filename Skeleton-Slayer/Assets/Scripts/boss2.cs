@@ -9,6 +9,17 @@ public class boss2 : MonoBehaviour
     int atkStep;
     public float lookRadius = 15f;
 
+    //sound
+    int stepNumber;
+    public AudioSource stepSoundSkeleton1;
+    public AudioSource stepSoundSkeleton2;
+    public AudioSource stepSoundSkeleton3;
+    public AudioSource stepSoundSkeleton4;
+
+    //door
+    public GameObject door;
+    public GameObject door2;
+
     public void Start()
     {
         Vector3 positionInitial = transform.position;
@@ -57,6 +68,11 @@ public class boss2 : MonoBehaviour
                 MoveBoss2();
             }
         }
+        else
+        {
+            door.SetActive(false);
+            door2.SetActive(false);
+        }
     }
     public void boss2Atk()
     {
@@ -82,5 +98,27 @@ public class boss2 : MonoBehaviour
     public void UnFreezeBoss2()
     {
         enableAtc = true;
+    }
+    public void stepSoundSkeleton()
+    {
+        switch (stepNumber)
+        {
+            case 0:
+                stepNumber += 1;
+                stepSoundSkeleton1.Play();
+                break;
+            case 1:
+                stepNumber += 1;
+                stepSoundSkeleton2.Play();
+                break;
+            case 2:
+                stepNumber += 1;
+                stepSoundSkeleton3.Play();
+                break;
+            case 3:
+                stepNumber = 0;
+                stepSoundSkeleton4.Play();
+                break;
+        }
     }
 }

@@ -12,9 +12,10 @@ public class HealthManager : MonoBehaviour
     private float invicibilityCounter;
     // invicibility effect
 
-
     public GameObject bubble;
     public ParticleSystem hurtEffect;
+    public AudioSource audioSourceHurt;
+    public AudioSource audioSourceYouDied;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,7 @@ public class HealthManager : MonoBehaviour
         if (currentHealth > 0)
         {
             FindObjectOfType<GameManager>().AddHealth(currentHealth, maxHealth);
+            FindObjectOfType<PlayerController>().currentHealth(currentHealth, maxHealth);
         }
         else
         {
@@ -49,13 +51,14 @@ public class HealthManager : MonoBehaviour
     {
         if (invicibilityCounter <= 0)
         {
-
             Instantiate(hurtEffect, thePlayer.transform.position, Quaternion.identity);
+            audioSourceHurt.Play();
             currentHealth -= damage;
 
             if (currentHealth <= 0)
             {
                 FindObjectOfType<GameManager>().AddHealth(0, maxHealth);
+                audioSourceYouDied.Play();
                 anim.SetInteger("transition", 4);
             }
 

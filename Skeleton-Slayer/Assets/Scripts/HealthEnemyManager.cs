@@ -7,6 +7,8 @@ public class HealthEnemyManager : MonoBehaviour
     public int currentHealth;
     public Animator anim;
     public GameObject damageText;
+    public GameObject prefab;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -16,6 +18,11 @@ public class HealthEnemyManager : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+            int probability = Random.Range(0, 101);
+            if (probability >= 50)
+            {
+                Instantiate(prefab, transform.position, Quaternion.identity);
+            }
             anim.SetInteger("transition", 4);
             currentHealth = 0;
         }

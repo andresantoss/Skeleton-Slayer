@@ -18,9 +18,18 @@ public class PlayerController : MonoBehaviour
     public Transform respawnPoint;
     public GameObject mainMenu;
     public GameObject youDie;
-    public GameObject youDieRawImage;
     public GameObject hud;
     public GameObject cpWarning;
+    //sound
+    public AudioSource audioSourceJumping;
+    public AudioSource audioSourceDrinkingPotion;
+
+    // potion
+    public int ctPotion;
+    public int ctHealth;
+    public int ctMaxHealth;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,13 +38,13 @@ public class PlayerController : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
+        Debug.Log(ctPotion);
         if (mainMenu.active == false)
         {
             if (anim.GetInteger("transition") != 4)
             {
                 if (knockBackCounter <= 0)
                 {
-
                     float yStore = moveDirection.y;
                     float zDirection = Input.GetAxis("Vertical");
                     moveDirection = new Vector3(0.0f, 0.0f, zDirection);
@@ -50,6 +59,7 @@ public class PlayerController : MonoBehaviour
                         transform.position += transform.forward * moveSpeed;
                         if (Input.GetButtonDown("Jump"))
                         {
+                            audioSourceJumping.Play();
                             moveDirection.y = jumpForce;
                         }
                     }
@@ -63,6 +73,7 @@ public class PlayerController : MonoBehaviour
                 //animação
                 if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
                 {
+
                     anim.SetInteger("transition", 1);
                 }
                 else
@@ -71,7 +82,19 @@ public class PlayerController : MonoBehaviour
                 }
                 anim.SetBool("isGrounded", controller.isGrounded);
 
-
+                if (Input.GetKey(KeyCode.Alpha1))
+                {
+                    if (ctHealth < ctMaxHealth)
+                    {
+                        if (ctPotion > 0)
+                        {
+                            audioSourceDrinkingPotion.Play();
+                            FindObjectOfType<GameManager>().AddPotion(-1);
+                            FindObjectOfType<HealthManager>().HealPlayer(20);
+                            FindObjectOfType<Combo>().ResetCombo();
+                        }
+                    }
+                }
             }
             else
             {
@@ -80,6 +103,17 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    public void currentPotion(int cPotion)
+    {
+        ctPotion = cPotion;
+    }
+    public void currentHealth(int cHealth, int cMaxHealth)
+    {
+        ctHealth = +cHealth;
+        ctMaxHealth = +cMaxHealth;
+    }
+
     public void SetSpawnPoint(Transform newPosition)
     {
         if (newPosition != respawnPoint)
@@ -91,11 +125,9 @@ public class PlayerController : MonoBehaviour
     public IEnumerator resetRespawn()
     {
         youDie.SetActive(true);
-        youDieRawImage.SetActive(true);
         hud.SetActive(true);
         yield return new WaitForSeconds(4f);
         youDie.SetActive(false);
-        youDieRawImage.SetActive(false);
         hud.SetActive(false);
         mainMenu.SetActive(true);
         controller.transform.position = respawnPoint.transform.position;
@@ -113,5 +145,10 @@ public class PlayerController : MonoBehaviour
         knockBackCounter = knockBackTime;
         moveDirection = direction * knockBackForce;
         moveDirection.y = knockBackForce;
+    }
+
+    public void usePotion()
+    {
+
     }
 }
