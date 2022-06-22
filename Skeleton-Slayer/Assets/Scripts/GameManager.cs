@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour
     public int currentHealth;
     public TMP_Text HealthText;
     public TMP_Text maxHealthText;
+    public AudioSource audioSourcePickUp;
 
     public void AddPotion(int potionToAdd)
     {
+        audioSourcePickUp.Play();
         currentPotion += potionToAdd;
         potionText.text = "" + currentPotion;
     }

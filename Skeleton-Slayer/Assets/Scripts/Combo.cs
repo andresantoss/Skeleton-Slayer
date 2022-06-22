@@ -6,6 +6,10 @@ public class Combo : MonoBehaviour
     public bool comboPossible;
     public int comboStep;
     bool inputSmash;
+    //sound
+    public AudioSource audioSourceStep;
+    public AudioSource audioSourceStep2;
+    public AudioSource audioSourceSowrd;
 
     public bool m_isAxisInUse = false;
     void Start()
@@ -73,4 +77,18 @@ public class Combo : MonoBehaviour
         if (Input.GetMouseButton(1))
         { SmashAttack(); }
     }
+
+    public void StepSound()
+    {
+        audioSourceStep.Play();
+    }
+    public void Step2Sound()
+    {
+        audioSourceStep2.Play();
+    }
+    public void SwordSound()
+    {
+        audioSourceSowrd.Play();
+    }
+
 }

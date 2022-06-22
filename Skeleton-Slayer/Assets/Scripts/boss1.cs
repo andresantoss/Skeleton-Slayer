@@ -9,6 +9,12 @@ public class boss1 : MonoBehaviour
     int atkStep;
     public float lookRadius = 15f;
     public ParticleSystem AtkCEffect;
+    // sound step
+    int stepNumber;
+    public AudioSource stepSoundSkeleton1;
+    public AudioSource stepSoundSkeleton2;
+    public AudioSource stepSoundSkeleton3;
+    public AudioSource stepSoundSkeleton4;
 
     public void Start()
     {
@@ -89,5 +95,28 @@ public class boss1 : MonoBehaviour
     public void UnFreezeBoss1()
     {
         enableAtc = true;
+    }
+
+    public void stepSoundSkeleton()
+    {
+        switch (stepNumber)
+        {
+            case 0:
+                stepNumber += 1;
+                stepSoundSkeleton1.Play();
+                break;
+            case 1:
+                stepNumber += 1;
+                stepSoundSkeleton2.Play();
+                break;
+            case 2:
+                stepNumber += 1;
+                stepSoundSkeleton3.Play();
+                break;
+            case 3:
+                stepNumber = 0;
+                stepSoundSkeleton4.Play();
+                break;
+        }
     }
 }

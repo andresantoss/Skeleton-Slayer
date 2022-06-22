@@ -98,7 +98,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2861572626698367499, guid: db77114866cef6c41be16e847cc9112b, type: 3}
       propertyPath: m_Name
-      value: Potion Healing
+      value: Potion Healing Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711660815872061060, guid: db77114866cef6c41be16e847cc9112b, type: 3}
+      propertyPath: audioSourcePickUp
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7070600952102511487, guid: db77114866cef6c41be16e847cc9112b, type: 3}
       propertyPath: m_RootOrder

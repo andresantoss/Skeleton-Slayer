@@ -18,9 +18,12 @@ public class PlayerController : MonoBehaviour
     public Transform respawnPoint;
     public GameObject mainMenu;
     public GameObject youDie;
-    public GameObject youDieRawImage;
     public GameObject hud;
     public GameObject cpWarning;
+    //sound
+    public AudioSource audioSourceJumping;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour
                         transform.position += transform.forward * moveSpeed;
                         if (Input.GetButtonDown("Jump"))
                         {
+                            audioSourceJumping.Play();
                             moveDirection.y = jumpForce;
                         }
                     }
@@ -63,6 +67,7 @@ public class PlayerController : MonoBehaviour
                 //animação
                 if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
                 {
+
                     anim.SetInteger("transition", 1);
                 }
                 else
@@ -80,6 +85,8 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+
     public void SetSpawnPoint(Transform newPosition)
     {
         if (newPosition != respawnPoint)
@@ -91,11 +98,9 @@ public class PlayerController : MonoBehaviour
     public IEnumerator resetRespawn()
     {
         youDie.SetActive(true);
-        youDieRawImage.SetActive(true);
         hud.SetActive(true);
         yield return new WaitForSeconds(4f);
         youDie.SetActive(false);
-        youDieRawImage.SetActive(false);
         hud.SetActive(false);
         mainMenu.SetActive(true);
         controller.transform.position = respawnPoint.transform.position;
