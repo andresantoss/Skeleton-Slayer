@@ -6,6 +6,7 @@ public class boss1 : MonoBehaviour
     public Transform target;
     public float boss1Speed;
     bool enableAtc;
+    bool combate;
     int atkStep;
     public float lookRadius = 15f;
     public ParticleSystem AtkCEffect;
@@ -15,6 +16,9 @@ public class boss1 : MonoBehaviour
     public AudioSource stepSoundSkeleton2;
     public AudioSource stepSoundSkeleton3;
     public AudioSource stepSoundSkeleton4;
+
+    // door
+    public GameObject door;
 
     public void Start()
     {
@@ -61,6 +65,10 @@ public class boss1 : MonoBehaviour
                 RotateBoss1();
                 MoveBoss1();
             }
+        }
+        else
+        {
+            door.SetActive(false);
         }
     }
     public void boss1Atk()

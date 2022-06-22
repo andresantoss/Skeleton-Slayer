@@ -10,6 +10,9 @@ public class boss3 : MonoBehaviour
     public float lookRadius = 15f;
     public GameObject prefab;
 
+    // door
+    public GameObject door;
+
     public void Start()
     {
         Vector3 positionInitial = transform.position;
@@ -56,6 +59,10 @@ public class boss3 : MonoBehaviour
                 RotateBoss3();
                 MoveBoss3();
             }
+        }
+        else
+        {
+            door.SetActive(false);
         }
     }
     public void boss3Atk()

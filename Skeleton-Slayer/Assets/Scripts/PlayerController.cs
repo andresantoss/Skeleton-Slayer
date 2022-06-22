@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour
     public GameObject cpWarning;
     //sound
     public AudioSource audioSourceJumping;
+    public AudioSource audioSourceDrinkingPotion;
+
+    // potion
+    public int ctPotion;
+    public int ctHealth;
+    public int ctMaxHealth;
 
 
     // Start is called before the first frame update
@@ -32,13 +38,13 @@ public class PlayerController : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
+        Debug.Log(ctPotion);
         if (mainMenu.active == false)
         {
             if (anim.GetInteger("transition") != 4)
             {
                 if (knockBackCounter <= 0)
                 {
-
                     float yStore = moveDirection.y;
                     float zDirection = Input.GetAxis("Vertical");
                     moveDirection = new Vector3(0.0f, 0.0f, zDirection);
@@ -76,7 +82,19 @@ public class PlayerController : MonoBehaviour
                 }
                 anim.SetBool("isGrounded", controller.isGrounded);
 
-
+                if (Input.GetKey(KeyCode.Alpha1))
+                {
+                    if (ctHealth < ctMaxHealth)
+                    {
+                        if (ctPotion > 0)
+                        {
+                            audioSourceDrinkingPotion.Play();
+                            FindObjectOfType<GameManager>().AddPotion(-1);
+                            FindObjectOfType<HealthManager>().HealPlayer(20);
+                            FindObjectOfType<Combo>().ResetCombo();
+                        }
+                    }
+                }
             }
             else
             {
@@ -86,6 +104,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void currentPotion(int cPotion)
+    {
+        ctPotion = cPotion;
+    }
+    public void currentHealth(int cHealth, int cMaxHealth)
+    {
+        ctHealth = +cHealth;
+        ctMaxHealth = +cMaxHealth;
+    }
 
     public void SetSpawnPoint(Transform newPosition)
     {
@@ -118,5 +145,10 @@ public class PlayerController : MonoBehaviour
         knockBackCounter = knockBackTime;
         moveDirection = direction * knockBackForce;
         moveDirection.y = knockBackForce;
+    }
+
+    public void usePotion()
+    {
+
     }
 }

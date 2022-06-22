@@ -38,6 +38,7 @@ public class HealthManager : MonoBehaviour
         if (currentHealth > 0)
         {
             FindObjectOfType<GameManager>().AddHealth(currentHealth, maxHealth);
+            FindObjectOfType<PlayerController>().currentHealth(currentHealth, maxHealth);
         }
         else
         {

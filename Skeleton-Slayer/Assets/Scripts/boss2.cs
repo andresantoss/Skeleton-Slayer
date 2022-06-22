@@ -16,6 +16,10 @@ public class boss2 : MonoBehaviour
     public AudioSource stepSoundSkeleton3;
     public AudioSource stepSoundSkeleton4;
 
+    //door
+    public GameObject door;
+    public GameObject door2;
+
     public void Start()
     {
         Vector3 positionInitial = transform.position;
@@ -63,6 +67,11 @@ public class boss2 : MonoBehaviour
                 RotateBoss2();
                 MoveBoss2();
             }
+        }
+        else
+        {
+            door.SetActive(false);
+            door2.SetActive(false);
         }
     }
     public void boss2Atk()

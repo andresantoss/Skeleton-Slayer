@@ -18,7 +18,11 @@ public class HealthEnemyManager : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            Instantiate(prefab);
+            int probability = Random.Range(0, 101);
+            if (probability >= 50)
+            {
+                Instantiate(prefab, transform.position, Quaternion.identity);
+            }
             anim.SetInteger("transition", 4);
             currentHealth = 0;
         }

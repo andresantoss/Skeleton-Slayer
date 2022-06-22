@@ -2257,10 +2257,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dada8b1de1ace24ca8ff6ff7234b09f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 300
   currentHealth: 0
   anim: {fileID: 8386499861990244655}
   damageText: {fileID: 2437418347003421257, guid: d1401abd06ea3db4e9cf43fbd5fa3edb, type: 3}
+  prefab: {fileID: 4865314111959066391, guid: 880d8e7fdf287194f928c2adefe39d69, type: 3}
 --- !u!1 &8386499861288169298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2385,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8692999382094324217}
-  m_LocalRotation: {x: -0, y: 0.7085892, z: -0, w: 0.7056213}
+  m_LocalRotation: {x: 0, y: 0.70858616, z: 0, w: 0.70562434}
   m_LocalPosition: {x: -49.08, y: 1.2, z: 19.168806}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_ConstrainProportionsScale: 0
@@ -2462,6 +2463,12 @@ MonoBehaviour:
   target: {fileID: 0}
   boss1Speed: 4
   lookRadius: 15
+  stepSoundSkeleton1: {fileID: 4022937300637973079}
+  stepSoundSkeleton2: {fileID: -6009058472202129952}
+  stepSoundSkeleton3: {fileID: -110864590157586090}
+  stepSoundSkeleton4: {fileID: -2637734978628387395}
+  door: {fileID: 0}
+  door2: {fileID: 0}
 --- !u!82 &4022937300637973079
 AudioSource:
   m_ObjectHideFlags: 0

@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
         audioSourcePickUp.Play();
         currentPotion += potionToAdd;
         potionText.text = "" + currentPotion;
+        FindObjectOfType<PlayerController>().currentPotion(currentPotion);
     }
 
     public void AddHealth(int Health, int maxHealth)

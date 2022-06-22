@@ -72,10 +72,13 @@ public class Combo : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetMouseButton(0))
-        { NormalAttack(); }
-        if (Input.GetMouseButton(1))
-        { SmashAttack(); }
+        if (playerAnim.GetInteger("transition") != 4)
+        {
+            if (Input.GetMouseButton(0))
+            { NormalAttack(); }
+            if (Input.GetMouseButton(1))
+            { SmashAttack(); }
+        }
     }
 
     public void StepSound()
