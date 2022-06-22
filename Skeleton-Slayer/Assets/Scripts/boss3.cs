@@ -9,6 +9,7 @@ public class boss3 : MonoBehaviour
     int atkStep;
     public float lookRadius = 15f;
     public GameObject prefab;
+    public GameObject fire;
 
     // door
     public GameObject door;
@@ -67,14 +68,14 @@ public class boss3 : MonoBehaviour
     }
     public void boss3Atk()
     {
-        if ((target.position - transform.position).magnitude < 10)
+        if ((target.position - transform.position).magnitude < 20)
         {
             switch (atkStep)
             {
                 case 0:
                     atkStep += 1;
                     boss3Anim.Play("Boss3_AtkA");
-                    Instantiate(prefab);
+                    Instantiate(prefab, transform.position, Quaternion.identity);
                     break;
                 case 1:
                     atkStep += 1;
@@ -83,6 +84,7 @@ public class boss3 : MonoBehaviour
                 case 2:
                     atkStep = 0;
                     boss3Anim.Play("Boss3_AtkC");
+                    Instantiate(fire, transform.position, Quaternion.identity);
                     break;
             }
         }
@@ -95,4 +97,5 @@ public class boss3 : MonoBehaviour
     {
         enableAtc = true;
     }
+
 }

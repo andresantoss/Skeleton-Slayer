@@ -8,6 +8,7 @@ public class HealthEnemyManager : MonoBehaviour
     public Animator anim;
     public GameObject damageText;
     public GameObject prefab;
+    public GameObject EnemeyObj;
 
     void Start()
     {
@@ -19,9 +20,14 @@ public class HealthEnemyManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             int probability = Random.Range(0, 101);
-            if (probability >= 50)
+            bool dropOk = true;
+            if (dropOk)
             {
-                Instantiate(prefab, transform.position, Quaternion.identity);
+                if (probability >= 50)
+                {
+                    dropOk = false;
+                    Instantiate(prefab, transform.position, Quaternion.identity);
+                }
             }
             anim.SetInteger("transition", 4);
             currentHealth = 0;
