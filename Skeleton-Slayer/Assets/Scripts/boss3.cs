@@ -10,6 +10,7 @@ public class boss3 : MonoBehaviour
     public float lookRadius = 15f;
     public GameObject prefab;
     public GameObject fire;
+    public bool credits;
 
     // door
     public GameObject door;
@@ -63,6 +64,8 @@ public class boss3 : MonoBehaviour
         }
         else
         {
+            //Debug.Log("Acabou o jogo");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Creditos");
             door.SetActive(false);
         }
     }
@@ -89,6 +92,7 @@ public class boss3 : MonoBehaviour
             }
         }
     }
+
     public void FreezeBoss()
     {
         enableAtc = false;
