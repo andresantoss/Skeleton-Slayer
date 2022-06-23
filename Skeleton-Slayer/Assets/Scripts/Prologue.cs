@@ -14,8 +14,6 @@ public class Prologue : MonoBehaviour
     }
     public void LoadNewScene()
     {
-
         UnityEngine.SceneManagement.SceneManager.LoadScene("Mapa");
-        //Destroy(gameObject);
     }
 }

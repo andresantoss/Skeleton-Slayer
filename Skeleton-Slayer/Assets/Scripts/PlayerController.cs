@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
-        Debug.Log(ctPotion);
+        //Debug.Log(ctPotion);
         if (mainMenu.active == false)
         {
             if (anim.GetInteger("transition") != 4)
@@ -99,7 +99,6 @@ public class PlayerController : MonoBehaviour
             else
             {
                 StartCoroutine(resetRespawn());
-
             }
         }
     }
