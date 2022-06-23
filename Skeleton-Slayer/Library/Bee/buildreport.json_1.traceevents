@@ -1,0 +1,523 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655944446335727, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944446337158, "dur": 22271, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944446359657, "dur": 2513555, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944448873231, "dur": 10086, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944489545383, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944489545401, "dur": 11137, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944489556540, "dur": 370225, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944489926766, "dur": 10046, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944499814881, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944499815133, "dur": 4860, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944499819994, "dur": 1407772, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944501227767, "dur": 1932, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944923341047, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944923341067, "dur": 25265, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944923366334, "dur": 389968, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944923756304, "dur": 10253, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944941707719, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944941707739, "dur": 11474, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944941719215, "dur": 455398, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944942174614, "dur": 10390, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944950485272, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944950485298, "dur": 4731, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944950490031, "dur": 41691, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944950531819, "dur": 1886093, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944952417914, "dur": 1521525, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944953939440, "dur": 1549, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944953941463, "dur": 40, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655944952208115, "dur": 194610, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952210641, "dur": 59097, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952385725, "dur": 5249, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952390979, "dur": 11737, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952391805, "dur": 9894, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952407129, "dur": 1256, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655944952406341, "dur": 2067, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944953941579, "dur": 232, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655944952471408, "dur":1498, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944952472916, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655944952472970, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655944952472986, "dur":269, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655944952473281, "dur":476, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944952473757, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912019, "dur":106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912125, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912138, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912140, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912150, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912152, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912159, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912161, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912167, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912170, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912176, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912178, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912185, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912207, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953912255, "dur":10645, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655944952473960, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952473961, "dur":4994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952478955, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944952479023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952620072, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944952622446, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655944952622488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952622492, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655944952625518, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944952625582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952626502, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944952627998, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952628053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952628397, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952631328, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1655944952631373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952631581, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1655944952637286, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952637338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952637379, "dur":26971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952664388, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952664444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952664449, "dur":28182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952692670, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952692715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952692720, "dur":24439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952717199, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952717235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952717240, "dur":14261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952731542, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952731582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952731587, "dur":16223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952747850, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952747889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952747894, "dur":13019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952760954, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944952760992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944952760997, "dur":339133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953100168, "dur":97852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953198023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953198028, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953199588, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953199627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953199632, "dur":23043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953222715, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953222754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953222758, "dur":25311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953248108, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953248146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953248151, "dur":12591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953260785, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953260825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953260831, "dur":37389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953298261, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953298299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953298305, "dur":51262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953349608, "dur":60105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953409717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953409722, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953410839, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953410881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953410886, "dur":58899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953469824, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953469860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953469865, "dur":96610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953566514, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953566549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953566553, "dur":222349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655944953788940, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953788981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953788986, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953793036, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1655944953793075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953793082, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1655944953797013, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953797050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953797055, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953798494, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953798529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953798534, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953799299, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1655944953799400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953799404, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1655944953800124, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1655944953800673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953800677, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1655944953801650, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953801688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953801692, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953804170, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953804206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953804210, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953805543, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1655944953805579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953805583, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1655944953806566, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953806600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953806605, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953807377, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655944953807410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953807414, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655944953809309, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953809344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953809361, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953810440, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1655944953810476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953810480, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811224, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811267, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811947, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953811985, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655944953813428, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1655944953813464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953813468, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1655944953814211, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944953814333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655944953814336, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655944953815023, "dur":96996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952473956, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952473957, "dur":4894, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952478860, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655944952478870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952479473, "dur":336, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655944952479811, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655944952479856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952618123, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655944952621927, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655944952621982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952622347, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655944952623763, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655944952623811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952623816, "dur":60168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655944952684026, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944952684067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944952684072, "dur":417246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953101382, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953101424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953101428, "dur":17602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953119070, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953119110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953119115, "dur":24253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953143408, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953143445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953143450, "dur":26728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953170220, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953170257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953170262, "dur":19504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953189808, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953189846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953189851, "dur":12419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953202312, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953202350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953202355, "dur":42576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953244973, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953245011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953245016, "dur":40901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953285985, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953286021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953286026, "dur":16485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953302551, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953302588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953302592, "dur":23522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953326155, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953326193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953326198, "dur":24917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953351334, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953351437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953351442, "dur":52183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953403665, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953403702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953403707, "dur":69656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953473401, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953473436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953473441, "dur":59663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953533144, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953533184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953533189, "dur":74597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953607827, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953607873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953607878, "dur":150522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953758443, "dur":128519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953886966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655944953886971, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655944953887931, "dur":24095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952474095, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952474095, "dur":4809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952478904, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952478988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952620018, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952622335, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952622396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952622443, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952624164, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1655944952624244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952624803, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1655944952627231, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952627279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952627284, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655944952628049, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952628094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952630083, "dur":10343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952640471, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952640513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952640518, "dur":25154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952665714, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952665754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952665759, "dur":292960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952958760, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944952958802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944952958806, "dur":167763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953126615, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953126656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953126661, "dur":81210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953207948, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953207986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953207991, "dur":48993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953257024, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953257061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953257066, "dur":16316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953273420, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953273458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953273462, "dur":26319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953299821, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953299858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953299862, "dur":20384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953320289, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953320328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953320333, "dur":29576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953349952, "dur":58028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953407983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953407988, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953409885, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953409924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953409927, "dur":55504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953465469, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953465516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953465520, "dur":118665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953584226, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953584263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953584269, "dur":33229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953617538, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953617591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953617596, "dur":151505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655944953769143, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655944953769181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953769234, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1655944953770283, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655944953770336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953770340, "dur":5688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655944953776083, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655944953776122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953776126, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655944953777774, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655944953777811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953777816, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655944953781362, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655944953781401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655944953781406, "dur":44586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655944953826032, "dur":85975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952474293, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952474293, "dur":4584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952478877, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655944952478954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952620106, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655944952621822, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655944952621868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952621985, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655944952624040, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655944952624086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952624754, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655944952627749, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1655944952627789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952627794, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1655944952629176, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655944952629790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952629795, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655944952631736, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944952631781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952631958, "dur":124798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944952756796, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944952756834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944952756838, "dur":346941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953103820, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953103872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953103877, "dur":23785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953127701, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953127743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953127747, "dur":11841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953139627, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953139665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953139670, "dur":57160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953196872, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953196914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953196919, "dur":25785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953222744, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953222848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953222852, "dur":13482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953236378, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953236418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953236424, "dur":13324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953249787, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953249823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953249827, "dur":13390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953263258, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953263296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953263301, "dur":16251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953279589, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953279630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953279650, "dur":68368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953348164, "dur":46729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953394897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953394902, "dur":8545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953403489, "dur":149261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953552769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953552774, "dur":8306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953561116, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953561153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953561157, "dur":137943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953699137, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953699173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655944953699178, "dur":145621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655944953844836, "dur":67245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952474042, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952474042, "dur":4860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952478902, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1655944952478972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952620833, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1655944952622572, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1655944952622628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952622632, "dur":5867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1655944952628536, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655944952628582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952628585, "dur":34698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655944952663327, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952663377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952663382, "dur":68800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952732222, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952732260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952732265, "dur":13556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952745863, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952745904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952745909, "dur":12098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952758047, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944952758085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944952758089, "dur":341957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953100093, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953100136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953100140, "dur":73791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953173975, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953174013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953174017, "dur":13869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953187928, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953187966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953187971, "dur":23420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953211430, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953211467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953211472, "dur":27961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953239474, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953239513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953239518, "dur":21486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953261044, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953261084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953261088, "dur":14099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953275228, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953275266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953275270, "dur":12181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953287490, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953287528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953287533, "dur":12109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953299683, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953299721, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953299728, "dur":41183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953340950, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953340990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953340995, "dur":32340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953373378, "dur":46986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953420367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953420372, "dur":4379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953424789, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953424824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953424828, "dur":110088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953534955, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953535000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953535005, "dur":60005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953595051, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953595088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953595092, "dur":85566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953680695, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953680729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953680734, "dur":24869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953705639, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953705675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953705679, "dur":60456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953766181, "dur":81554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953847739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655944953847744, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655944953848669, "dur":63336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952474205, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952474205, "dur":4700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952478905, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1655944952478975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952620509, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1655944952623954, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1655944952624008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952624843, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1655944952626214, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1655944952626255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952626507, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1655944952628306, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952628365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952628368, "dur":35130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952663542, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952663587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952663591, "dur":29600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952693229, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952693269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952693272, "dur":265421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952958736, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944952958814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944952958818, "dur":160357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953119213, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953119266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953119269, "dur":54100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953173408, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953173447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953173453, "dur":11679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953185175, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953185213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953185217, "dur":12905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953198164, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953198207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953198211, "dur":25126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953223378, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953223417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953223421, "dur":17181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953240679, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953240718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953240723, "dur":79586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953320347, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953320385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953320389, "dur":86824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953407255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953407292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953407297, "dur":144454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953551789, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953551830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953551835, "dur":20347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953572222, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953572259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953572264, "dur":115836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953688141, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953688178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655944953688184, "dur":223768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/projetos/Skeleton Slayer/Skeleton-Slayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655944953911991, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1655944953911992, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655944953924654, "dur":1598, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655944953941872, "dur": 564, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655944953941451, "dur": 1002, "ph": "X", "name": "Write chrome-trace events", "args": {} },
