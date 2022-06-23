@@ -350,7 +350,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Prefabs/LightningBolt/LightningBoltScript.cs"
 "Assets/Prefabs/PyroParticles/Demo/DemoScript.cs"
-"Assets/Prefabs/PyroParticles/Demo/DemoScriptEditor.cs"
 "Assets/Prefabs/PyroParticles/Prefab/Script/FireBaseScript.cs"
 "Assets/Prefabs/PyroParticles/Prefab/Script/FireCollisionForwardScript.cs"
 "Assets/Prefabs/PyroParticles/Prefab/Script/FireConstantBaseScript.cs"
